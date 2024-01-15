@@ -66,6 +66,9 @@ export function markdown(options: MarkdownOptions = {}): FlatConfig[] {
 
                 'unused-imports/no-unused-imports': 'off',
                 'unused-imports/no-unused-vars': 'off',
+
+                'import/named': 'off',
+                'import/no-empty-named-blocks': 'off',
             },
         },
     ]
