@@ -1,5 +1,5 @@
 {
-    "extends": "@kdt310722/tsconfig",
+    "extends": "@kdt310722/tsconfig/lib",
     "compilerOptions": {
         "baseUrl": ".",
         "rootDir": "./src",
