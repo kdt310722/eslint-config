@@ -38,7 +38,7 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=8.40.0"
+        "eslint": ">=8.56.0"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "^1.23.0-2",
