@@ -27,6 +27,7 @@ export function markdown(options: MarkdownOptions = {}): FlatConfig[] {
 
                 'no-alert': 'off',
                 'no-console': 'off',
+                'no-empty-pattern': 'off',
                 'no-labels': 'off',
                 'no-lone-blocks': 'off',
                 'no-restricted-imports': 'off',
