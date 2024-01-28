@@ -1,7 +1,7 @@
 import { isPackageExists } from 'local-pkg'
-import type { FlatConfig, PrettierOptions, StyleOptions } from '../types'
-import { GLOB_CSS, GLOB_GRAPHQL, GLOB_HTML, GLOB_LESS, GLOB_MARKDOWN, GLOB_MDX, GLOB_POSTCSS, GLOB_SCSS, GLOB_TOML, GLOB_YAML } from '../globs'
+import { GLOB_ASTRO, GLOB_CSS, GLOB_GRAPHQL, GLOB_HTML, GLOB_LESS, GLOB_MARKDOWN, GLOB_MDX, GLOB_POSTCSS, GLOB_SCSS, GLOB_TOML, GLOB_YAML } from '../globs'
 import { parserPlain, pluginFormat } from '../plugins'
+import type { FlatConfig, PrettierOptions, StyleOptions } from '../types'
 import { ensurePackages, resolveOptions } from '../utils'
 
 export interface FormatterParser {
@@ -16,6 +16,7 @@ export type FormatterParserObject = Record<string, [string[], PrettierOptions?, 
 export type FormatterParsers = FormatterParserObject | FormatterParser[]
 
 export const defaultFormatterParsers = {
+    astro: [[GLOB_ASTRO], { plugins: ['prettier-plugin-astro'] }],
     css: [[GLOB_CSS, GLOB_POSTCSS]],
     graphql: [[GLOB_GRAPHQL]],
     html: [[GLOB_HTML]],
