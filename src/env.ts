@@ -7,3 +7,4 @@ export const hasReact = isPackageExists('react') || isPackageExists('next')
 export const hasVue = isPackageExists('vue') || isPackageExists('nuxt') || isPackageExists('vitepress') || isPackageExists('@slidev/cli')
 export const hasUnocss = isPackageExists('unocss') || isPackageExists('@unocss/webpack') || isPackageExists('@unocss/nuxt')
 export const hasTailwindCSS = isPackageExists('tailwindcss') && !hasUnocss
+export const hasAstro = isPackageExists('astro')

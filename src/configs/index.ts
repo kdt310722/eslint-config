@@ -1,3 +1,4 @@
+export * from './astro'
 export * from './comments'
 export * from './formatters'
 export * from './ignores'

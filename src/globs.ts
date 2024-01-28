@@ -27,6 +27,9 @@ export const GLOB_TOML = '**/*.toml'
 export const GLOB_HTML = '**/*.htm?(l)'
 export const GLOB_GRAPHQL = '**/*.graphql'
 export const GLOB_MDX = '**/*.mdx'
+export const GLOB_ASTRO = '**/*.astro'
+export const GLOB_ASTRO_JS = `${GLOB_ASTRO}/*.js`
+export const GLOB_ASTRO_TS = `${GLOB_ASTRO}/*.ts`
 
 export const GLOB_ALL_SRC = [
     GLOB_SRC,
@@ -37,6 +40,7 @@ export const GLOB_ALL_SRC = [
     GLOB_VUE,
     GLOB_YAML,
     GLOB_HTML,
+    GLOB_ASTRO,
 ]
 
 export const GLOB_EXCLUDE = [

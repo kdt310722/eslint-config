@@ -1,4 +1,4 @@
-import { comments, formatters, ignores, imports, javascript, jsdoc, jsonc, markdown, node, perfectionist, promise, react, sonarjs, sorts, stylistic, tailwindcss, typescript, unicorn, unocss, vue } from './configs'
+import { astro, comments, formatters, ignores, imports, javascript, jsdoc, jsonc, markdown, node, perfectionist, promise, react, sonarjs, sorts, stylistic, tailwindcss, typescript, unicorn, unocss, vue } from './configs'
 import type { StyleOptions } from './types'
 
 export const defaultStyle: StyleOptions = {
@@ -41,4 +41,5 @@ export const availableConfigs = {
     unocss,
     vue,
     formatters,
+    astro,
 }

@@ -1,8 +1,8 @@
-import { combine, resolveOptions } from './utils'
-import type { Awaitable, FlatConfig, StyleOptions } from './types'
 import type { OptionsFormatters, TypescriptOptions, VueOptions } from './configs'
-import { isInEditor as defaultIsInEditor, hasReact, hasTailwindCSS, hasTypeScript, hasUnocss, hasVue } from './env'
 import { availableConfigs, defaultStyle } from './constants'
+import { isInEditor as defaultIsInEditor, hasAstro, hasReact, hasTailwindCSS, hasTypeScript, hasUnocss, hasVue } from './env'
+import type { Awaitable, FlatConfig, StyleOptions } from './types'
+import { combine, resolveOptions } from './utils'
 
 export interface DefineFlatConfigOptions {
     style?: StyleOptions
@@ -28,6 +28,7 @@ export interface DefineFlatConfigOptions {
     unicorn?: boolean
     unocss?: boolean
     vue?: Omit<VueOptions, 'typescript'> | boolean
+    astro?: boolean
 }
 
 export async function defineFlatConfig<T extends FlatConfig>(options: DefineFlatConfigOptions = {}, ...userConfigs: T[]) {
@@ -41,6 +42,7 @@ export async function defineFlatConfig<T extends FlatConfig>(options: DefineFlat
         typescript: resolveOptions(options.typescript ?? hasTypeScript),
         unocss: resolveOptions(options.unocss ?? hasUnocss),
         vue: resolveOptions(options.vue ?? hasVue),
+        astro: resolveOptions(options.astro ?? hasAstro),
     }
 
     const isInEditor = options.isInEditor ?? defaultIsInEditor
@@ -48,6 +50,10 @@ export async function defineFlatConfig<T extends FlatConfig>(options: DefineFlat
 
     if (resolvedOptions.vue) {
         componentExts.push('vue')
+    }
+
+    if (resolvedOptions.astro) {
+        componentExts.push('astro')
     }
 
     for (const [key, config] of Object.entries(availableConfigs)) {

@@ -2,12 +2,13 @@ import type { DeprecationRules, EslintCommentsRules, EslintRules, ImportRules, J
 import type { RuleOptions } from '@stylistic/eslint-plugin'
 import type { RuleOptions as AntfuRules } from 'eslint-plugin-antfu'
 import type { KDTRuleOptions } from '../plugins/kdt'
+import type { AstroRules } from './rules/astro'
 import type { FormatRules } from './rules/format'
-import type { UnusedImportsRules } from './rules/unused-imports'
 import type { PerfectionistRules } from './rules/perfectionist'
 import type { ReactRefreshRules } from './rules/react-refresh'
 import type { TailwindCssRules } from './rules/tailwindcss'
 import type { UnoCssRules } from './rules/unocss'
+import type { UnusedImportsRules } from './rules/unused-imports'
 
 export type StylisticRules = RenamePrefix<RuleOptions, '@stylistic', 'style'>
 
@@ -36,4 +37,5 @@ export type Rules =
     UnicornRules &
     UnoCssRules &
     UnusedImportsRules &
-    VueRules
+    VueRules &
+    AstroRules

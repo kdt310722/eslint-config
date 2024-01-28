@@ -1,6 +1,7 @@
 import formatPlugin from 'eslint-plugin-format'
 
 export { default as pluginAntfu } from 'eslint-plugin-antfu'
+export { default as pluginAstro } from 'eslint-plugin-astro'
 export { default as pluginComments } from 'eslint-plugin-eslint-comments'
 export { default as pluginDeprecation } from 'eslint-plugin-deprecation'
 export { default as pluginFormat } from 'eslint-plugin-format'
@@ -26,6 +27,7 @@ export { default as pluginVue } from 'eslint-plugin-vue'
 
 export const parserPlain = formatPlugin.parserPlain
 
+export { default as parserAstro } from 'astro-eslint-parser'
 export { default as parserJsonc } from 'jsonc-eslint-parser'
 export { default as parserTypescript } from '@typescript-eslint/parser'
 export { default as parserVue } from 'vue-eslint-parser'
