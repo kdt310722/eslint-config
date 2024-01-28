@@ -27,6 +27,7 @@ export const GLOB_TOML = '**/*.toml'
 export const GLOB_HTML = '**/*.htm?(l)'
 export const GLOB_GRAPHQL = '**/*.graphql'
 export const GLOB_MDX = '**/*.mdx'
+
 export const GLOB_ASTRO = '**/*.astro'
 export const GLOB_ASTRO_JS = `${GLOB_ASTRO}/*.js`
 export const GLOB_ASTRO_TS = `${GLOB_ASTRO}/*.ts`
