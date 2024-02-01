@@ -1,5 +1,5 @@
-import type { FlatConfig } from '../types'
 import { pluginSonarJs } from '../plugins'
+import type { FlatConfig } from '../types'
 
 export function sonarjs(): FlatConfig[] {
     return [
@@ -9,6 +9,7 @@ export function sonarjs(): FlatConfig[] {
                 ...pluginSonarJs.configs.recommended.rules,
                 'sonarjs/cognitive-complexity': 'off',
                 'sonarjs/no-duplicate-string': 'off',
+                'sonarjs/no-nested-template-literals': 'off',
             },
         },
     ]
