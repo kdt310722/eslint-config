@@ -57,8 +57,8 @@ dependencies:
     specifier: ^2.29.1
     version: 2.29.1(@typescript-eslint/parser@7.0.1)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
   eslint-plugin-jsdoc:
-    specifier: ^48.0.6
-    version: 48.0.6(eslint@8.56.0)
+    specifier: ^48.1.0
+    version: 48.1.0(eslint@8.56.0)
   eslint-plugin-jsonc:
     specifier: ^2.13.0
     version: 2.13.0(eslint@8.56.0)
@@ -134,8 +134,8 @@ devDependencies:
     specifier: ^18.6.1
     version: 18.6.1(@types/node@20.11.17)(typescript@5.3.3)
   '@commitlint/config-conventional':
-    specifier: ^18.6.1
-    version: 18.6.1
+    specifier: ^18.6.2
+    version: 18.6.2
   '@kdt310722/tsconfig':
     specifier: ^1.0.0
     version: 1.0.0(typescript@5.3.3)
@@ -289,8 +289,8 @@ packages:
       - typescript
     dev: true
 
-  /@commitlint/config-conventional@18.6.1:
-    resolution: {integrity: sha512-ftpfAOQyI+IHvut0cRF4EFM39PWCqde+uOXCjH9NpK6FpqfhncAbEvP0E7OIpFsrDX0aS7k81tzH5Yz7prcNxA==}
+  /@commitlint/config-conventional@18.6.2:
+    resolution: {integrity: sha512-PcgSYg1AKGQIwDQKbaHtJsfqYy4uJTC7crLVZ83lfjcPaec4Pry2vLeaWej7ao2KsT20l9dWoMPpEGg8LWdUuA==}
     engines: {node: '>=v18'}
     dependencies:
       '@commitlint/types': 18.6.1
@@ -3230,8 +3230,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-jsdoc@48.0.6(eslint@8.56.0):
-    resolution: {integrity: sha512-LgwXOX6TWxxFYcbdVe+BJ94Kl/pgjSPYHLzqEdAMXTA1BH9WDx7iJ+9/iDajPF64LtzWX8C1mCfpbMZjJGhAOw==}
+  /eslint-plugin-jsdoc@48.1.0(eslint@8.56.0):
+    resolution: {integrity: sha512-g9S8ukmTd1DVcV/xeBYPPXOZ6rc8WJ4yi0+MVxJ1jBOrz5kmxV9gJJQ64ltCqIWFnBChLIhLVx3tbTSarqVyFA==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
