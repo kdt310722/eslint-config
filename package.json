@@ -84,8 +84,8 @@
         "vue-eslint-parser": "^9.4.2"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.0.2",
-        "@commitlint/config-conventional": "^19.0.0",
+        "@commitlint/cli": "^19.0.3",
+        "@commitlint/config-conventional": "^19.0.3",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.4.2",
         "@types/eslint__js": "^8.42.3",
