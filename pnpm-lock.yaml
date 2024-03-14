@@ -69,8 +69,8 @@ dependencies:
     specifier: ^16.6.2
     version: 16.6.2(eslint@8.57.0)
   eslint-plugin-perfectionist:
-    specifier: ^2.6.0
-    version: 2.6.0(astro-eslint-parser@0.16.3)(eslint@8.57.0)(typescript@5.4.2)(vue-eslint-parser@9.4.2)
+    specifier: ^2.7.0
+    version: 2.7.0(astro-eslint-parser@0.16.3)(eslint@8.57.0)(typescript@5.4.2)(vue-eslint-parser@9.4.2)
   eslint-plugin-promise:
     specifier: ^6.1.1
     version: 6.1.1(eslint@8.57.0)
@@ -3261,8 +3261,8 @@ packages:
       semver: 7.6.0
     dev: false
 
-  /eslint-plugin-perfectionist@2.6.0(astro-eslint-parser@0.16.3)(eslint@8.57.0)(typescript@5.4.2)(vue-eslint-parser@9.4.2):
-    resolution: {integrity: sha512-hee0Fu5825v+WTIhrRIJdWO8biUgm9O+c4Q1AEXIIGsXDHrLv5cdXfVUdnQcYgGtI/4X+tdFu69iVofHCIkvtw==}
+  /eslint-plugin-perfectionist@2.7.0(astro-eslint-parser@0.16.3)(eslint@8.57.0)(typescript@5.4.2)(vue-eslint-parser@9.4.2):
+    resolution: {integrity: sha512-RpSMc0T0DT9DlOj4APzwlAjCqQMxFdsIYlupe73eDkKLn1mMK7fVw2z3nj2y822szKOpvHA7bDa56ySOlr4GXw==}
     peerDependencies:
       astro-eslint-parser: ^0.16.0
       eslint: '>=8.0.0'
