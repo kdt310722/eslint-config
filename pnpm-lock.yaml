@@ -84,8 +84,8 @@ dependencies:
     specifier: ^0.4.6
     version: 0.4.6(eslint@8.57.0)
   eslint-plugin-sonarjs:
-    specifier: ^0.25.0
-    version: 0.25.0(eslint@8.57.0)
+    specifier: ^0.25.1
+    version: 0.25.1(eslint@8.57.0)
   eslint-plugin-tailwindcss:
     specifier: ^3.15.1
     version: 3.15.1(tailwindcss@3.4.1)
@@ -3286,8 +3286,8 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: false
 
-  /eslint-plugin-sonarjs@0.25.0(eslint@8.57.0):
-    resolution: {integrity: sha512-DaZOtpUucEZbvowgKxVFwICV6r0h7jSCAx0IHICvCowP+etFussnhtaiCPSnYAuwVJ+P/6UFUhkv7QJklpXFyA==}
+  /eslint-plugin-sonarjs@0.25.1(eslint@8.57.0):
+    resolution: {integrity: sha512-5IOKvj/GMBNqjxBdItfotfRHo7w48496GOu1hxdeXuD0mB1JBlDCViiLHETDTfA8pDAVSBimBEQoetRXYceQEw==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
