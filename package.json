@@ -48,7 +48,7 @@
         "@typescript-eslint/eslint-plugin": "^7.5.0",
         "@typescript-eslint/parser": "^7.5.0",
         "@typescript-eslint/utils": "^7.5.0",
-        "@unocss/eslint-plugin": "^0.58.9",
+        "@unocss/eslint-plugin": "^0.59.0",
         "astro-eslint-parser": "^0.16.3",
         "eslint-import-resolver-typescript": "^3.6.1",
         "eslint-merge-processors": "^0.1.0",
