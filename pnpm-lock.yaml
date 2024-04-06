@@ -30,8 +30,8 @@ dependencies:
     specifier: ^0.59.0
     version: 0.59.0(eslint@8.57.0)(typescript@5.4.4)
   astro-eslint-parser:
-    specifier: ^0.16.3
-    version: 0.16.3
+    specifier: ^0.17.0
+    version: 0.17.0(typescript@5.4.4)
   eslint-import-resolver-typescript:
     specifier: ^3.6.1
     version: 3.6.1(@typescript-eslint/parser@7.5.0)(eslint-plugin-import@2.29.1)(eslint@8.57.0)
@@ -70,7 +70,7 @@ dependencies:
     version: 16.6.2(eslint@8.57.0)
   eslint-plugin-perfectionist:
     specifier: ^2.8.0
-    version: 2.8.0(astro-eslint-parser@0.16.3)(eslint@8.57.0)(typescript@5.4.4)(vue-eslint-parser@9.4.2)
+    version: 2.8.0(astro-eslint-parser@0.17.0)(eslint@8.57.0)(typescript@5.4.4)(vue-eslint-parser@9.4.2)
   eslint-plugin-promise:
     specifier: ^6.1.1
     version: 6.1.1(eslint@8.57.0)
@@ -1447,6 +1447,27 @@ packages:
     engines: {node: ^18.18.0 || >=20.0.0}
     dev: false
 
+  /@typescript-eslint/typescript-estree@5.62.0(typescript@5.4.4):
+    resolution: {integrity: sha512-CmcQ6uY7b9y694lKdRB8FEel7JbU/40iSAPomu++SjLMntB+2Leay2LO6i8VnJk58MtE9/nQSFIH6jpyRWyYzA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@typescript-eslint/types': 5.62.0
+      '@typescript-eslint/visitor-keys': 5.62.0
+      debug: 4.3.4
+      globby: 11.1.0
+      is-glob: 4.0.3
+      semver: 7.6.0
+      tsutils: 3.21.0(typescript@5.4.4)
+      typescript: 5.4.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@typescript-eslint/typescript-estree@6.21.0(typescript@5.4.4):
     resolution: {integrity: sha512-6npJTkZcO+y2/kr+z0hc4HwNfrrP4kNYh57ek7yCNlrBjWQ1Y0OS7jiZTkgumrvkX5HkEKXFZkkdFNkaW2wmUQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
@@ -1940,6 +1961,27 @@ packages:
       semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /astro-eslint-parser@0.17.0(typescript@5.4.4):
+    resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@astrojs/compiler': 2.5.2
+      '@typescript-eslint/scope-manager': 5.62.0
+      '@typescript-eslint/types': 5.62.0
+      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.4.4)
+      astrojs-compiler-sync: 0.3.5(@astrojs/compiler@2.5.2)
+      debug: 4.3.4
+      entities: 4.5.0
+      eslint-visitor-keys: 3.4.3
+      espree: 9.6.1
+      globby: 11.1.0
+      is-glob: 4.0.3
+      semver: 7.6.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
     dev: false
 
   /astrojs-compiler-sync@0.3.5(@astrojs/compiler@2.5.2):
@@ -3204,7 +3246,7 @@ packages:
       semver: 7.6.0
     dev: false
 
-  /eslint-plugin-perfectionist@2.8.0(astro-eslint-parser@0.16.3)(eslint@8.57.0)(typescript@5.4.4)(vue-eslint-parser@9.4.2):
+  /eslint-plugin-perfectionist@2.8.0(astro-eslint-parser@0.17.0)(eslint@8.57.0)(typescript@5.4.4)(vue-eslint-parser@9.4.2):
     resolution: {integrity: sha512-XBjQ4ctU1rOzQ4bFJoUowe8XdsIIz42JqNrouFlae1TO78HjoyYBaRP8+gAHDDQCSdHY10pbChyzlJeBA6D51w==}
     peerDependencies:
       astro-eslint-parser: ^0.16.0
@@ -3223,7 +3265,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/utils': 6.21.0(eslint@8.57.0)(typescript@5.4.4)
-      astro-eslint-parser: 0.16.3
+      astro-eslint-parser: 0.17.0(typescript@5.4.4)
       eslint: 8.57.0
       minimatch: 9.0.3
       natural-compare-lite: 1.4.0
