@@ -158,8 +158,8 @@ devDependencies:
     specifier: ^15.2.2
     version: 15.2.2
   np:
-    specifier: ^10.0.2
-    version: 10.0.2(typescript@5.4.4)
+    specifier: ^10.0.3
+    version: 10.0.3(typescript@5.4.4)
   npm-check-updates:
     specifier: ^16.14.18
     version: 16.14.18
@@ -5413,8 +5413,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: true
 
-  /np@10.0.2(typescript@5.4.4):
-    resolution: {integrity: sha512-GVneZPeBZ/KSoVQyW9NjagM1KWFIheGcV2HtrCwYfe4L+z02lQq8lQXVw8eb8vM+weSdhqtzZ57ymaRwubvoTg==}
+  /np@10.0.3(typescript@5.4.4):
+    resolution: {integrity: sha512-JioZkOd7DtT1nkGnVOUrPfD7P3SlNbjsT2dHxMDsxpZcpd44iP4J4Nn9OTjCAhf9LK4EezTcIfU7QadyupEvxg==}
     engines: {git: '>=2.11.0', node: '>=18', npm: '>=9', pnpm: '>=8', yarn: '>=1.7.0'}
     hasBin: true
     dependencies:
