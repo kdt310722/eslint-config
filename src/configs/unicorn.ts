@@ -10,7 +10,7 @@ export function unicorn(): FlatConfig[] {
                 'unicorn/consistent-function-scoping': ['error', { checkArrowFunctions: false }],
                 'unicorn/filename-case': [
                     'error',
-                    { cases: { kebabCase: true, pascalCase: true }, ignore: ['.*\\.md$'] },
+                    { cases: { kebabCase: true, pascalCase: true }, ignore: [String.raw`.*\.md$`] },
                 ],
                 'unicorn/new-for-builtins': 'off',
                 'unicorn/no-array-callback-reference': 'off',
