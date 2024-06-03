@@ -99,7 +99,7 @@
         "only-allow": "^1.2.1",
         "rimraf": "^5.0.7",
         "simple-git-hooks": "^2.11.1",
-        "tsup": "^8.0.2",
+        "tsup": "^8.1.0",
         "typescript": "^5.4.5"
     },
     "commitlint": {
