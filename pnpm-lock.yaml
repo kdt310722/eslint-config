@@ -163,8 +163,8 @@ importers:
         specifier: ^10.0.7
         version: 10.0.7(typescript@5.5.4)
       npm-check-updates:
-        specifier: ^17.0.1
-        version: 17.0.1
+        specifier: ^17.0.2
+        version: 17.0.2
       only-allow:
         specifier: ^1.2.1
         version: 1.2.1
@@ -3023,8 +3023,8 @@ packages:
     engines: {git: '>=2.11.0', node: '>=18', npm: '>=9', pnpm: '>=8', yarn: '>=1.7.0'}
     hasBin: true
 
-  npm-check-updates@17.0.1:
-    resolution: {integrity: sha512-PKVCncWsT/8rBptjds5lpGMLlqaTjv11NJgblMf2rKUauzHZBB9OSAqFgC4duyY2+N6na/WGzL9CUD/+ZeIzvQ==}
+  npm-check-updates@17.0.2:
+    resolution: {integrity: sha512-uX7/Lel+0P3sVuTTr9G3u+8qPJQw9Yl9FtpW8TNpuAMziN+au/Mspqo2g1Sd+3M6MFlSNX2Q3KI0tMW47WP5LQ==}
     engines: {node: ^18.18.0 || >=20.0.0, npm: '>=8.12.1'}
     hasBin: true
 
@@ -4096,11 +4096,6 @@ packages:
   y18n@5.0.8:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
     engines: {node: '>=10'}
-
-  yaml@2.4.2:
-    resolution: {integrity: sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==}
-    engines: {node: '>= 14'}
-    hasBin: true
 
   yaml@2.5.0:
     resolution: {integrity: sha512-2wWLbGbYDiSqqIKoPjar3MPgB94ErzCtrNE1FdqGuaO0pi2JGjmE8aW8TDZwzU7vuxcGRdL/4gPQwQ7hD5AMSw==}
@@ -7171,7 +7166,7 @@ snapshots:
       - zen-observable
       - zenObservable
 
-  npm-check-updates@17.0.1: {}
+  npm-check-updates@17.0.2: {}
 
   npm-name@8.0.0:
     dependencies:
@@ -7455,8 +7450,8 @@ snapshots:
 
   postcss-load-config@4.0.2(postcss@8.4.33):
     dependencies:
-      lilconfig: 3.1.1
-      yaml: 2.4.2
+      lilconfig: 3.1.2
+      yaml: 2.5.0
     optionalDependencies:
       postcss: 8.4.33
 
@@ -8347,8 +8342,6 @@ snapshots:
   xml-name-validator@4.0.0: {}
 
   y18n@5.0.8: {}
-
-  yaml@2.4.2: {}
 
   yaml@2.5.0: {}
 
