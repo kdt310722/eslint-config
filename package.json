@@ -2,7 +2,7 @@
     "name": "@kdt310722/eslint-config",
     "type": "module",
     "version": "0.0.5",
-    "packageManager": "pnpm@9.8.0",
+    "packageManager": "pnpm@9.9.0",
     "description": "My personal ESLint config",
     "author": "Diep Dang <kdt310722@gmail.com>",
     "license": "MIT",
@@ -43,7 +43,7 @@
     },
     "dependencies": {
         "@antfu/eslint-define-config": "1.23.0-2",
-        "@antfu/install-pkg": "^0.4.0",
+        "@antfu/install-pkg": "^0.4.1",
         "@eslint/js": "^8.57.0",
         "@stylistic/eslint-plugin": "^1.8.1",
         "@typescript-eslint/eslint-plugin": "^7.18.0",
