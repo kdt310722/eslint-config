@@ -145,7 +145,7 @@ export function stylistic(_: unknown, options: StyleOptions = {}): FlatConfig[] 
         {
             plugins: { antfu: pluginAntfu, kdt: pluginKDT, style: pluginStylistic },
             rules: {
-                ...renameRules(pluginStylistic.configs['disable-legacy'].rules!, '@typescript-eslint/', 'ts/'),
+                ...renameRules(pluginStylistic.configs['disable-legacy'].rules, '@typescript-eslint/', 'ts/'),
                 ...getStylisticRules(options, 'style/'),
 
                 'antfu/if-newline': 'error',
