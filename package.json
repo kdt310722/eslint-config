@@ -39,7 +39,7 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=9.13.0"
+        "eslint": ">=9.14.0"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "1.23.0-2",
