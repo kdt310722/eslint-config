@@ -114,14 +114,14 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       prettier:
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^3.4.1
+        version: 3.4.1
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-toml:
         specifier: ^2.0.1
-        version: 2.0.1(prettier@3.4.0)
+        version: 2.0.1(prettier@3.4.1)
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -3368,8 +3368,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.4.0:
-    resolution: {integrity: sha512-/OXNZcLyWkfo13ofOW5M7SLh+k5pnIs07owXK2teFpnfaOEcycnSy7HQxldaVX1ZP/7Q8oO1eDuQJNwbomQq5Q==}
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5875,7 +5875,7 @@ snapshots:
       eslint: 8.57.1
       eslint-formatting-reporter: 0.0.0(eslint@8.57.1)
       eslint-parser-plain: 0.1.0
-      prettier: 3.4.0
+      prettier: 3.4.1
       synckit: 0.9.0
 
   eslint-plugin-i@2.29.1(@typescript-eslint/parser@7.18.0(eslint@8.57.1)(typescript@5.7.2))(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1):
@@ -7473,15 +7473,15 @@ snapshots:
   prettier-plugin-astro@0.14.1:
     dependencies:
       '@astrojs/compiler': 2.9.1
-      prettier: 3.4.0
+      prettier: 3.4.1
       sass-formatter: 0.7.9
 
-  prettier-plugin-toml@2.0.1(prettier@3.4.0):
+  prettier-plugin-toml@2.0.1(prettier@3.4.1):
     dependencies:
       '@taplo/lib': 0.4.0-alpha.2
-      prettier: 3.4.0
+      prettier: 3.4.1
 
-  prettier@3.4.0: {}
+  prettier@3.4.1: {}
 
   prompts@2.4.2:
     dependencies:
