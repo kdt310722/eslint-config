@@ -27,7 +27,7 @@ export const javascriptRules = {
     'no-extend-native': 'error',
     'no-extra-bind': 'error',
     'no-extra-label': 'error',
-    'no-fallthrough': ['error', { allowEmptyCase: true, commentPattern: 'break[\\s\\w]*omitted' }],
+    'no-fallthrough': ['error', { allowEmptyCase: true, commentPattern: String.raw`break[\s\w]*omitted` }],
     'no-implied-eval': 'error',
     'no-iterator': 'error',
     'no-label-var': 'error',

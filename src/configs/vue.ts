@@ -1,15 +1,15 @@
+import type { VueRules } from '@antfu/eslint-define-config'
+import type { Linter } from 'eslint'
+import { mergeProcessors } from 'eslint-merge-processors'
 import type { Options } from 'eslint-processor-vue-blocks'
 import processor from 'eslint-processor-vue-blocks'
-import type { Linter } from 'eslint'
 import { getPackageInfo } from 'local-pkg'
-import semver from 'semver'
-import { mergeProcessors } from 'eslint-merge-processors'
-import type { VueRules } from '@antfu/eslint-define-config'
-import type { FlatConfig, StyleOptions, WrapRuleConfig } from '../types'
-import { getStylisticOf, intersection, resolveOptions } from '../utils'
+import { gte, lt } from 'semver'
+import { hasTypeScript } from '../env'
 import { GLOB_VUE } from '../globs'
 import { parserTypescript, parserVue, pluginVue } from '../plugins'
-import { hasTypeScript } from '../env'
+import type { FlatConfig, StyleOptions, WrapRuleConfig } from '../types'
+import { getStylisticOf, intersection, resolveOptions } from '../utils'
 import { javascriptRules } from './javascript'
 
 export interface VueOptions {
@@ -25,7 +25,7 @@ async function getVueVersion() {
 }
 
 function isVersion3(version?: string) {
-    return version && semver.gte(version, '3.0.0') && semver.lt(version, '4.0.0')
+    return version && gte(version, '3.0.0') && lt(version, '4.0.0')
 }
 
 function getProcessor(options: Options | false): Linter.Processor {

@@ -1,5 +1,6 @@
-import type { FlatConfig } from '../types'
 import { pluginAntfu, pluginImport } from '../plugins'
+import type { FlatConfig } from '../types'
+import { renameRules } from '../utils'
 
 export function imports(): FlatConfig[] {
     return [
@@ -12,7 +13,7 @@ export function imports(): FlatConfig[] {
                 },
             },
             rules: {
-                ...pluginImport.configs.recommended.rules,
+                ...renameRules(pluginImport.configs.recommended.rules, 'import-x', 'import'),
 
                 'antfu/import-dedupe': 'error',
                 'antfu/no-import-dist': 'error',

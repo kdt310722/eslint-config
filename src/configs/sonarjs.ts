@@ -8,8 +8,10 @@ export function sonarjs(): FlatConfig[] {
             rules: {
                 ...pluginSonarJs.configs.recommended.rules,
                 'sonarjs/cognitive-complexity': 'off',
+                'sonarjs/function-return-type': 'off',
                 'sonarjs/no-duplicate-string': 'off',
                 'sonarjs/no-nested-template-literals': 'off',
+                'sonarjs/redundant-type-aliases': 'off',
             },
         },
     ]

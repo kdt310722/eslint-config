@@ -30,12 +30,14 @@ export const defaultFormatterParsers = {
 
 export type DefaultFormatterParsers = keyof typeof defaultFormatterParsers
 
-export type OptionsFormatters = { parsers?: FormatterParsers } & {
-    [K in DefaultFormatterParsers]?: Partial<FormatterParser> | boolean
-}
+export type OptionsFormatters = { parsers?: FormatterParsers } & Partial<Record<DefaultFormatterParsers, Partial<FormatterParser> | boolean>>
 
 export function getPrintWidth({ printWidth }: StyleOptions) {
-    return printWidth === false ? Number.POSITIVE_INFINITY : (printWidth === true ? undefined : printWidth)
+    if (printWidth === false) {
+        return Number.POSITIVE_INFINITY
+    }
+
+    return printWidth === true ? undefined : printWidth
 }
 
 export const toPrettierOptions = (options: StyleOptions = {}): PrettierOptions => ({

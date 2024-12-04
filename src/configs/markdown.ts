@@ -1,7 +1,7 @@
 import { mergeProcessors, processorPassThrough } from 'eslint-merge-processors'
-import type { FlatConfig } from '../types'
 import { GLOB_MARKDOWN, GLOB_MARKDOWN_CODE, GLOB_MARKDOWN_IN_MARKDOWN } from '../globs'
 import { parserPlain, pluginMarkdown } from '../plugins'
+import type { FlatConfig } from '../types'
 
 export interface MarkdownOptions {
     componentExts?: string[]
@@ -23,7 +23,7 @@ export function markdown(options: MarkdownOptions = {}): FlatConfig[] {
                 },
             },
             rules: {
-                ...pluginMarkdown.configs.recommended.overrides[1].rules,
+                ...Object.fromEntries(new Map(pluginMarkdown.configs.recommended.flatMap((config: any) => Object.entries(config.rules ?? {})))),
 
                 'no-alert': 'off',
                 'no-console': 'off',
@@ -74,3 +74,5 @@ export function markdown(options: MarkdownOptions = {}): FlatConfig[] {
         },
     ]
 }
+
+markdown()

@@ -1,16 +1,16 @@
-import type { FlatConfig } from '../types'
 import { pluginUnicorn } from '../plugins'
+import type { FlatConfig } from '../types'
 
 export function unicorn(): FlatConfig[] {
     return [
-        pluginUnicorn.configs['flat/recommended'],
+        pluginUnicorn.configs['flat/recommended'] as any,
         {
             rules: {
                 'unicorn/consistent-destructuring': 'off',
                 'unicorn/consistent-function-scoping': ['error', { checkArrowFunctions: false }],
                 'unicorn/filename-case': [
                     'error',
-                    { cases: { kebabCase: true, pascalCase: true }, ignore: ['.*\\.md$'] },
+                    { cases: { kebabCase: true, pascalCase: true }, ignore: [String.raw`.*\.md$`] },
                 ],
                 'unicorn/new-for-builtins': 'off',
                 'unicorn/no-array-callback-reference': 'off',

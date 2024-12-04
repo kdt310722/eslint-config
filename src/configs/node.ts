@@ -1,13 +1,13 @@
+import { pluginNode } from '../plugins'
 import type { FlatConfig } from '../types'
 import { renameRules } from '../utils'
-import { pluginNode } from '../plugins'
 
 export function node(): FlatConfig[] {
     return [
         {
             plugins: { node: pluginNode },
             rules: {
-                ...renameRules(pluginNode.configs['flat/recommended'].rules, 'n/', 'node/'),
+                ...renameRules(pluginNode.configs['flat/recommended'].rules ?? {}, 'n/', 'node/'),
                 'node/handle-callback-err': ['error', '^(err|error)$'],
                 'node/no-missing-import': 'off',
                 'node/no-missing-require': 'off',

@@ -1,4 +1,4 @@
-export * from './configs'
-export * from './options'
-export * from './rules'
-export * from './utils'
+export type * from './configs'
+export type * from './options'
+export type * from './rules'
+export type * from './utils'

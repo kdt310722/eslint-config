@@ -30,7 +30,7 @@ export function astro(options: AstroOptions = {}): FlatConfig[] {
                 },
             },
             rules: {
-                ...(pluginAstro.configs.recommended.rules as any),
+                ...Object.fromEntries(new Map(pluginAstro.configs['flat/recommended'].flatMap((config) => Object.entries((config.rules ?? {}) as any)))),
                 ...Object.fromEntries(Object.keys(pluginStylistic.rules).map((rule) => [`style/${rule}`, 'off'])),
                 'unicorn/text-encoding-identifier-case': 'off',
                 'astro/no-set-text-directive': 'error',

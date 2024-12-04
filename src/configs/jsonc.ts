@@ -1,9 +1,8 @@
-import type { FlatConfig, StyleOptions } from '../types'
 import { GLOB_JSON, GLOB_JSON5, GLOB_JSONC } from '../globs'
 import { parserJsonc, pluginJsonc } from '../plugins'
-import { getStylisticOf } from '../utils'
+import type { FlatConfig, StyleOptions } from '../types'
 
-export function jsonc(_: unknown, styleOptions: StyleOptions = {}): FlatConfig[] {
+export function jsonc(_: unknown, __: StyleOptions = {}): FlatConfig[] {
     const files = [GLOB_JSON, GLOB_JSONC, GLOB_JSON5]
 
     return [
@@ -15,7 +14,6 @@ export function jsonc(_: unknown, styleOptions: StyleOptions = {}): FlatConfig[]
         {
             files,
             rules: {
-                ...getStylisticOf(pluginJsonc, 'jsonc', styleOptions),
                 'jsonc/comma-dangle': ['error', 'never'],
                 'jsonc/quotes': ['error', 'double'],
             },

@@ -1,10 +1,10 @@
-import process from 'node:process'
 import { existsSync } from 'node:fs'
 import { join } from 'node:path/posix'
+import process from 'node:process'
+import { GLOB_SRC, GLOB_TS, GLOB_TSX } from '../globs'
+import { parserTypescript, pluginImport, pluginTypescript } from '../plugins'
 import type { FlatConfig } from '../types'
 import { renameRules, toArray } from '../utils'
-import { GLOB_SRC, GLOB_TS, GLOB_TSX } from '../globs'
-import { parserTypescript, pluginDeprecation, pluginImport, pluginTypescript } from '../plugins'
 
 export interface TypescriptOptions {
     componentExts?: string[]
@@ -16,6 +16,7 @@ const typeAwareRules: FlatConfig['rules'] = {
     'ts/consistent-type-assertions': 'off',
     'ts/consistent-type-definitions': 'off',
     'ts/consistent-type-exports': 'error',
+    'ts/no-deprecated': 'error',
     'ts/restrict-template-expressions': [
         'error',
         { allowNumber: true, allowBoolean: true, allowAny: true, allowNullish: true, allowRegExp: true, allowNever: true },
@@ -45,7 +46,6 @@ const baseRules: FlatConfig['rules'] = {
 
     'ts/array-type': ['error', { default: 'array-simple' }],
     'ts/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
-    'ts/ban-types': ['error', { types: { Function: false } }],
     'ts/consistent-type-assertions': 'off',
     'ts/consistent-type-definitions': 'off',
     'ts/consistent-type-imports': [
@@ -72,6 +72,7 @@ const baseRules: FlatConfig['rules'] = {
     'ts/no-var-requires': 'off',
     'ts/triple-slash-reference': 'off',
     'ts/unified-signatures': 'off',
+    'ts/no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '^_', caughtErrors: 'all', caughtErrorsIgnorePattern: '^_', destructuredArrayIgnorePattern: '^_', vars: 'all', varsIgnorePattern: '^_', ignoreRestSiblings: true }],
 }
 
 export function typescript(options: TypescriptOptions = {}): FlatConfig[] {
@@ -115,13 +116,11 @@ export function typescript(options: TypescriptOptions = {}): FlatConfig[] {
                     ...(isTsConfigExists ? { project: tsconfigPath, tsconfigRootDir } : {}),
                 },
             },
-            plugins: { deprecation: pluginDeprecation },
             rules: isTsConfigExists ? {
                 ...renameRules(pluginTypescript.configs['strict-type-checked'].rules!, '@typescript-eslint/', 'ts/'),
                 ...renameRules(pluginTypescript.configs['stylistic-type-checked'].rules!, '@typescript-eslint/', 'ts/'),
                 ...baseRules,
                 ...typeAwareRules,
-                'deprecation/deprecation': 'error',
             } : {},
         },
         {
