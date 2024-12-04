@@ -24,6 +24,7 @@ export function imports(): FlatConfig[] {
                 'import/no-duplicates': 'error',
                 'import/no-empty-named-blocks': 'error',
                 'import/no-mutable-exports': 'error',
+                'import/ no-named-as-default': 'off',
                 'import/ no-named-as-default-member': 'off',
                 'import/no-named-default': 'error',
                 'import/no-self-import': 'error',
