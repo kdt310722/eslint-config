@@ -17,6 +17,7 @@ export function sonarjs(): FlatConfig[] {
                 'sonarjs/assertions-in-tests': 'off',
                 'sonarjs/updated-loop-counter': 'off',
                 'sonarjs/no-nested-assignment': 'off',
+                'sonarjs/no-async-constructor': 'off',
             },
         },
     ]
