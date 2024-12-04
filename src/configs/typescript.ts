@@ -31,6 +31,7 @@ const typeAwareRules: FlatConfig['rules'] = {
     'ts/no-non-null-assertion': 'off',
     'ts/no-redundant-type-constituents': 'off',
     'ts/no-unnecessary-qualifier': 'error',
+    'ts/no-unnecessary-type-parameters': 'off',
     'ts/no-unsafe-argument': 'off',
     'ts/no-unsafe-assignment': 'off',
     'ts/no-unsafe-call': 'off',
