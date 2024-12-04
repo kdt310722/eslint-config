@@ -26,6 +26,7 @@ export function unicorn(): FlatConfig[] {
                 'unicorn/prevent-abbreviations': 'off',
                 'unicorn/require-number-to-fixed-digits-argument': 'off',
                 'unicorn/switch-case-braces': ['error', 'avoid'],
+                'unicorn/import-style': 'off',
             },
         },
     ]

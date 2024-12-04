@@ -14,6 +14,7 @@ export function sonarjs(): FlatConfig[] {
                 'sonarjs/no-nested-template-literals': 'off',
                 'sonarjs/pseudo-random': 'off',
                 'sonarjs/redundant-type-aliases': 'off',
+                'sonarjs/assertions-in-tests': 'off',
             },
         },
     ]
