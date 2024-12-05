@@ -1,5 +1,5 @@
-import type { FlatConfig } from '../types'
 import { pluginPromise } from '../plugins'
+import type { FlatConfig } from '../types'
 
 export function promise(): FlatConfig[] {
     return [
@@ -10,6 +10,7 @@ export function promise(): FlatConfig[] {
                 'promise/always-return': 'off',
                 'promise/catch-or-return': 'off',
                 'promise/no-multiple-resolved': 'error',
+                'promise/no-nesting': 'off',
             },
         },
     ]

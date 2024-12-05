@@ -27,6 +27,7 @@ export function unicorn(): FlatConfig[] {
                 'unicorn/require-number-to-fixed-digits-argument': 'off',
                 'unicorn/switch-case-braces': ['error', 'avoid'],
                 'unicorn/import-style': 'off',
+                'unicorn/prefer-math-min-max': 'off',
             },
         },
     ]

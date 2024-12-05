@@ -17,6 +17,7 @@ export function node(): FlatConfig[] {
                 'node/no-unpublished-import': 'off',
                 'node/no-unpublished-require': 'off',
                 'node/shebang': 'off',
+                'node/no-unsupported-features/node-builtins': 'off',
             },
         },
     ]
