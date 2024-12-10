@@ -92,7 +92,7 @@
         "@types/node": "^22.10.1",
         "@types/prompts": "^2.4.9",
         "eslint": "^9.16.0",
-        "lint-staged": "^15.2.10",
+        "lint-staged": "^15.2.11",
         "np": "^10.1.0",
         "npm-check-updates": "^17.1.11",
         "only-allow": "^1.2.1",
