@@ -16,13 +16,10 @@ const typeAwareRules: FlatConfig['rules'] = {
     'ts/consistent-type-assertions': 'off',
     'ts/consistent-type-definitions': 'off',
     'ts/consistent-type-exports': 'error',
-    'ts/no-deprecated': 'error',
-    'ts/restrict-template-expressions': [
-        'error',
-        { allowNumber: true, allowBoolean: true, allowAny: true, allowNullish: true, allowRegExp: true, allowNever: true },
-    ],
     'ts/explicit-member-accessibility': 'error',
+    'ts/no-base-to-string': 'off',
     'ts/no-confusing-void-expression': 'off',
+    'ts/no-deprecated': 'error',
     'ts/no-dynamic-delete': 'off',
     'ts/no-explicit-any': 'off',
     'ts/no-floating-promises': 'off',
@@ -40,6 +37,8 @@ const typeAwareRules: FlatConfig['rules'] = {
     'ts/prefer-readonly': 'error',
     'ts/prefer-regexp-exec': 'error',
     'ts/require-array-sort-compare': ['error', { ignoreStringArrays: true }],
+    'ts/restrict-template-expressions': ['error', { allowNumber: true, allowBoolean: true, allowAny: true, allowNullish: true, allowRegExp: true, allowNever: true }],
+    'ts/use-unknown-in-catch-callback-variable': 'off',
 }
 
 const baseRules: FlatConfig['rules'] = {
@@ -49,10 +48,7 @@ const baseRules: FlatConfig['rules'] = {
     'ts/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
     'ts/consistent-type-assertions': 'off',
     'ts/consistent-type-definitions': 'off',
-    'ts/consistent-type-imports': [
-        'error',
-        { disallowTypeAnnotations: false, prefer: 'type-imports', fixStyle: 'inline-type-imports' },
-    ],
+    'ts/consistent-type-imports': ['error', { disallowTypeAnnotations: false, prefer: 'type-imports', fixStyle: 'inline-type-imports' }],
     'ts/dot-notation': 'off',
     'ts/no-confusing-void-expression': 'off',
     'ts/no-dynamic-delete': 'off',
@@ -67,13 +63,13 @@ const baseRules: FlatConfig['rules'] = {
     'ts/no-require-imports': 'error',
     'ts/no-unnecessary-condition': 'off',
     'ts/no-unused-expressions': 'error',
+    'ts/no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '^_', caughtErrors: 'all', caughtErrorsIgnorePattern: '^_', destructuredArrayIgnorePattern: '^_', vars: 'all', varsIgnorePattern: '^_', ignoreRestSiblings: true }],
     'ts/no-use-before-define': ['error', { classes: false, functions: false, variables: true }],
     'ts/no-useless-constructor': 'off',
     'ts/no-useless-empty-export': 'error',
     'ts/no-var-requires': 'off',
     'ts/triple-slash-reference': 'off',
     'ts/unified-signatures': 'off',
-    'ts/no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '^_', caughtErrors: 'all', caughtErrorsIgnorePattern: '^_', destructuredArrayIgnorePattern: '^_', vars: 'all', varsIgnorePattern: '^_', ignoreRestSiblings: true }],
 }
 
 export function typescript(options: TypescriptOptions = {}): FlatConfig[] {
