@@ -11,6 +11,7 @@ export function promise(): FlatConfig[] {
                 'promise/catch-or-return': 'off',
                 'promise/no-multiple-resolved': 'error',
                 'promise/no-nesting': 'off',
+                'promise/no-promise-in-callback': 'off',
             },
         },
     ]
