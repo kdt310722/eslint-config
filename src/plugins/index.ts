@@ -24,7 +24,7 @@ export { default as pluginUnoCSS } from '@unocss/eslint-plugin'
 export { default as pluginUnusedImports } from 'eslint-plugin-unused-imports'
 export { default as pluginVue } from 'eslint-plugin-vue'
 
-export const parserPlain = formatPlugin.parserPlain
+export const parserPlain = formatPlugin.parserPlain as any
 
 export { default as parserAstro } from 'astro-eslint-parser'
 export { default as parserJsonc } from 'jsonc-eslint-parser'
