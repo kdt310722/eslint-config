@@ -1,7 +1,7 @@
 {
     "name": "@kdt310722/eslint-config",
     "type": "module",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "packageManager": "pnpm@10.3.0",
     "description": "My personal ESLint config",
     "author": "Diep Dang <kdt310722@gmail.com>",
