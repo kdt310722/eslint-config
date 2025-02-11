@@ -39,6 +39,7 @@ const typeAwareRules: FlatConfig['rules'] = {
     'ts/require-array-sort-compare': ['error', { ignoreStringArrays: true }],
     'ts/restrict-template-expressions': ['error', { allowNumber: true, allowBoolean: true, allowAny: true, allowNullish: true, allowRegExp: true, allowNever: true }],
     'ts/use-unknown-in-catch-callback-variable': 'off',
+    'ts/unbound-method': 'off',
 }
 
 const baseRules: FlatConfig['rules'] = {

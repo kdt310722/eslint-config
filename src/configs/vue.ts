@@ -170,6 +170,7 @@ export async function vue(options: VueOptions = {}, styleOptions: StyleOptions =
                 'vue/singleline-html-element-content-newline': 'off',
                 'vue/v-for-delimiter-style': 'error',
                 'vue/valid-define-options': 'error',
+                'vue/valid-v-bind': 'off',
             },
         },
     ]
