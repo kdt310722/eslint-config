@@ -39,7 +39,7 @@
         "prepublishOnly": "pnpm build"
     },
     "peerDependencies": {
-        "eslint": ">=9.20.0"
+        "eslint": ">=9.20.1"
     },
     "dependencies": {
         "@antfu/eslint-define-config": "1.23.0-2",
@@ -91,7 +91,7 @@
         "@types/eslint__js": "^8.42.3",
         "@types/node": "^22.13.1",
         "@types/prompts": "^2.4.9",
-        "eslint": "^9.20.0",
+        "eslint": "^9.20.1",
         "lint-staged": "^15.4.3",
         "np": "^10.2.0",
         "npm-check-updates": "^17.1.14",
