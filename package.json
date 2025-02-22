@@ -76,7 +76,7 @@
         "globals": "^15.15.0",
         "jsonc-eslint-parser": "^2.4.0",
         "local-pkg": "^1.0.0",
-        "prettier": "^3.5.1",
+        "prettier": "^3.5.2",
         "prettier-plugin-astro": "^0.14.1",
         "prettier-plugin-toml": "^2.0.2",
         "prompts": "^2.4.2",
