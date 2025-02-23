@@ -160,8 +160,8 @@ importers:
         specifier: ^10.2.0
         version: 10.2.0(@types/node@22.13.5)(typescript@5.7.3)
       npm-check-updates:
-        specifier: ^17.1.14
-        version: 17.1.14
+        specifier: ^17.1.15
+        version: 17.1.15
       only-allow:
         specifier: ^1.2.1
         version: 1.2.1
@@ -2943,8 +2943,8 @@ packages:
     engines: {bun: '>=1', git: '>=2.11.0', node: '>=18', npm: '>=9', pnpm: '>=8', yarn: '>=1.7.0'}
     hasBin: true
 
-  npm-check-updates@17.1.14:
-    resolution: {integrity: sha512-dr4bXIxETubLI1tFGeock5hN8yVjahvaVpx+lPO4/O2md3zJuxB7FgH3MIoTvQSCgsgkIRpe0skti01IEAA5tA==}
+  npm-check-updates@17.1.15:
+    resolution: {integrity: sha512-miATvKu5rjec/1wxc5TGDjpsucgtCHwRVZorZpDkS6NzdWXfnUWlN4abZddWb7XSijAuBNzzYglIdTm9SbgMVg==}
     engines: {node: ^18.18.0 || >=20.0.0, npm: '>=8.12.1'}
     hasBin: true
 
@@ -6949,7 +6949,7 @@ snapshots:
       - zen-observable
       - zenObservable
 
-  npm-check-updates@17.1.14: {}
+  npm-check-updates@17.1.15: {}
 
   npm-name@8.0.0:
     dependencies:
