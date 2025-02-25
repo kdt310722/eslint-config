@@ -26,6 +26,7 @@ export function sonarjs(): FlatConfig[] {
                 'sonarjs/redundant-type-aliases': 'off',
                 'sonarjs/todo-tag': 'off',
                 'sonarjs/updated-loop-counter': 'off',
+                'sonarjs/no-selector-parameter': 'off',
             },
         },
     ]
