@@ -2,7 +2,7 @@
     "name": "@kdt310722/eslint-config",
     "type": "module",
     "version": "0.1.9",
-    "packageManager": "pnpm@10.6.0",
+    "packageManager": "pnpm@10.6.1",
     "description": "My personal ESLint config",
     "author": "Diep Dang <kdt310722@gmail.com>",
     "license": "MIT",
