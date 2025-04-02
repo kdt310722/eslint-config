@@ -69,8 +69,8 @@ importers:
         specifier: ^17.17.0
         version: 17.17.0(eslint@9.23.0(jiti@2.4.2))
       eslint-plugin-perfectionist:
-        specifier: ^4.10.1
-        version: 4.10.1(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
+        specifier: ^4.11.0
+        version: 4.11.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       eslint-plugin-promise:
         specifier: ^7.2.1
         version: 7.2.1(eslint@9.23.0(jiti@2.4.2))
@@ -1127,10 +1127,6 @@ packages:
     resolution: {integrity: sha512-VacJCBTyje7HGAw7xp11q439A+zeGG0p0/p2zsZwpnMzjPB5WteaWqt4g2iysgGFafrqvyLWqq6ZPZAOCoefCw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@typescript-eslint/types@8.26.0':
-    resolution: {integrity: sha512-89B1eP3tnpr9A8L6PZlSjBvnJhWXtYfZhECqlBl1D9Lme9mHO6iWlsprBtVenQvY1HMhax1mWOjhtL3fh/u+pA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
   '@typescript-eslint/types@8.27.0':
     resolution: {integrity: sha512-/6cp9yL72yUHAYq9g6DsAU+vVfvQmd1a8KyA81uvfDE21O2DwQ/qxlM4AR8TSdAu+kJLBDrEHKC5/W2/nxsY0A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -2114,8 +2110,8 @@ packages:
     peerDependencies:
       eslint: '>=8.23.0'
 
-  eslint-plugin-perfectionist@4.10.1:
-    resolution: {integrity: sha512-GXwFfL47RfBLZRGQdrvGZw9Ali2T2GPW8p4Gyj2fyWQ9396R/HgJMf0m9kn7D6WXRwrINfTDGLS+QYIeok9qEg==}
+  eslint-plugin-perfectionist@4.11.0:
+    resolution: {integrity: sha512-5s+ehXydnLPQpLDj5mJ0CnYj2fQe6v6gKA3tS+FZVBLzwMOh8skH+l+1Gni08rG0SdEcNhJyjQp/mEkDYK8czw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       eslint: '>=8.45.0'
@@ -5027,8 +5023,6 @@ snapshots:
 
   '@typescript-eslint/types@8.24.0': {}
 
-  '@typescript-eslint/types@8.26.0': {}
-
   '@typescript-eslint/types@8.27.0': {}
 
   '@typescript-eslint/types@8.29.0': {}
@@ -6158,9 +6152,9 @@ snapshots:
       minimatch: 9.0.5
       semver: 7.7.1
 
-  eslint-plugin-perfectionist@4.10.1(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2):
+  eslint-plugin-perfectionist@4.11.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2):
     dependencies:
-      '@typescript-eslint/types': 8.26.0
+      '@typescript-eslint/types': 8.29.0
       '@typescript-eslint/utils': 8.29.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       eslint: 9.23.0(jiti@2.4.2)
       natural-orderby: 5.0.0
