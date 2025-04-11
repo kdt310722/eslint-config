@@ -89,7 +89,7 @@
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.11.20",
         "@types/eslint__js": "^9.14.0",
-        "@types/node": "^22.14.0",
+        "@types/node": "^22.14.1",
         "@types/prompts": "^2.4.9",
         "eslint": "^9.24.0",
         "lint-staged": "^15.5.1",
