@@ -43,7 +43,7 @@
     },
     "dependencies": {
         "@antfu/eslint-define-config": "1.23.0-2",
-        "@antfu/install-pkg": "^1.0.0",
+        "@antfu/install-pkg": "^1.1.0",
         "@eslint/js": "^9.26.0",
         "@stylistic/eslint-plugin": "^3.1.0",
         "@typescript-eslint/eslint-plugin": "^8.32.0",
@@ -92,7 +92,7 @@
         "@types/node": "^22.15.12",
         "@types/prompts": "^2.4.9",
         "eslint": "^9.26.0",
-        "lint-staged": "^15.5.1",
+        "lint-staged": "^15.5.2",
         "np": "^10.2.0",
         "npm-check-updates": "^18.0.1",
         "only-allow": "^1.2.1",
