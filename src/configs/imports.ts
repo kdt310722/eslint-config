@@ -3,14 +3,17 @@ import type { FlatConfig } from '../types'
 import { renameRules } from '../utils'
 
 export function imports(): FlatConfig[] {
+    const importSettings = {
+        'espree': ['.js', '.cjs', '.mjs', '.jsx'],
+        '@typescript-eslint/parser': ['.ts', '.cts', '.mts', '.tsx'],
+    }
+
     return [
         {
             plugins: { antfu: pluginAntfu, import: pluginImport },
             settings: {
-                'import/parsers': {
-                    'espree': ['.js', '.cjs', '.mjs', '.jsx'],
-                    '@typescript-eslint/parser': ['.ts', '.cts', '.mts', '.tsx'],
-                },
+                'import/parsers': importSettings,
+                'import-x/parsers': importSettings,
             },
             rules: {
                 ...renameRules(pluginImport.configs.recommended.rules, 'import-x', 'import'),

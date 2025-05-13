@@ -80,6 +80,11 @@ export function typescript(options: TypescriptOptions = {}): FlatConfig[] {
     const fullTsConfigPaths = tsconfigPath.map((path) => join(tsconfigRootDir, path))
     const isTsConfigExists = fullTsConfigPaths.every((path) => existsSync(path))
 
+    const importSettings = {
+        ...pluginImport.configs.typescript.settings['import-x/resolver'],
+        typescript: isTsConfigExists ? { project: fullTsConfigPaths } : true,
+    }
+
     return [
         { plugins: { import: pluginImport, ts: pluginTypescript } },
         {
@@ -101,10 +106,8 @@ export function typescript(options: TypescriptOptions = {}): FlatConfig[] {
             },
             settings: {
                 ...pluginImport.configs.typescript.settings,
-                'import/resolver': {
-                    ...pluginImport.configs.typescript.settings['import/resolver'],
-                    typescript: isTsConfigExists ? { project: fullTsConfigPaths } : true,
-                },
+                'import/resolver': importSettings,
+                'import-x/resolver': importSettings,
             },
         },
         {
