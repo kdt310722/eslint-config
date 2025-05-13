@@ -6,7 +6,7 @@ export function tailwindcss(): FlatConfig[] {
         {
             plugins: { tailwindcss: pluginTailwindCSS },
             rules: {
-                ...pluginTailwindCSS.configs.recommended.rules,
+                ...pluginTailwindCSS.rules,
                 'tailwindcss/no-custom-classname': 'off',
             },
         },

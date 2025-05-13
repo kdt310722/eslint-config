@@ -1,5 +1,6 @@
 import formatPlugin from 'eslint-plugin-format'
 import * as pluginReactHooks from 'eslint-plugin-react-hooks'
+import * as pluginTailwindCSS from 'eslint-plugin-tailwindcss'
 
 export { default as pluginAntfu } from 'eslint-plugin-antfu'
 export { default as pluginAstro } from 'eslint-plugin-astro'
@@ -17,7 +18,6 @@ export { default as pluginReact } from 'eslint-plugin-react'
 export { default as pluginReactRefresh } from 'eslint-plugin-react-refresh'
 export { default as pluginSonarJs } from 'eslint-plugin-sonarjs'
 export { default as pluginStylistic } from '@stylistic/eslint-plugin'
-export { default as pluginTailwindCSS } from 'eslint-plugin-tailwindcss'
 export { default as pluginTypescript } from '@typescript-eslint/eslint-plugin'
 export { default as pluginUnicorn } from 'eslint-plugin-unicorn'
 export { default as pluginUnoCSS } from '@unocss/eslint-plugin'
@@ -32,4 +32,4 @@ export { default as parserTypescript } from '@typescript-eslint/parser'
 export { default as parserVue } from 'vue-eslint-parser'
 
 // eslint-disable-next-line unicorn/prefer-export-from
-export { pluginReactHooks }
+export { pluginReactHooks, pluginTailwindCSS }
