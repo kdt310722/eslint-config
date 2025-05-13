@@ -3,7 +3,7 @@ import type { FlatConfig } from '../types'
 
 export function unicorn(): FlatConfig[] {
     return [
-        pluginUnicorn.configs['flat/recommended'] as any,
+        pluginUnicorn.configs.recommended as FlatConfig,
         {
             rules: {
                 'unicorn/consistent-destructuring': 'off',

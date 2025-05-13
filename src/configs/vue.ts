@@ -53,17 +53,17 @@ function getMaxAttributesPerLineOpts({ singleAttributePerLine }: StyleOptions): 
 }
 
 const vue3Rules: FlatConfig['rules'] = {
-    ...pluginVue.configs.base.rules,
-    ...pluginVue.configs['vue3-essential'].rules,
-    ...pluginVue.configs['vue3-strongly-recommended'].rules,
-    ...pluginVue.configs['vue3-recommended'].rules,
+    ...pluginVue.configs['base'].rules,
+    ...pluginVue.configs['essential'].rules,
+    ...pluginVue.configs['strongly-recommended'].rules,
+    ...pluginVue.configs['recommended'].rules,
 }
 
 const vue2Rules: FlatConfig['rules'] = {
-    ...pluginVue.configs.base.rules,
-    ...pluginVue.configs.essential.rules,
-    ...pluginVue.configs['strongly-recommended'].rules,
-    ...pluginVue.configs.recommended.rules,
+    ...pluginVue.configs['base'].rules,
+    ...pluginVue.configs['vue2-essential'].rules,
+    ...pluginVue.configs['vue2-strongly-recommended'].rules,
+    ...pluginVue.configs['vue2-recommended'].rules,
 }
 
 export async function vue(options: VueOptions = {}, styleOptions: StyleOptions = {}): Promise<FlatConfig[]> {

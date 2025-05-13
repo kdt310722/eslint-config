@@ -1,4 +1,5 @@
 import formatPlugin from 'eslint-plugin-format'
+import * as pluginReactHooks from 'eslint-plugin-react-hooks'
 
 export { default as pluginAntfu } from 'eslint-plugin-antfu'
 export { default as pluginAstro } from 'eslint-plugin-astro'
@@ -13,7 +14,6 @@ export { default as pluginNode } from 'eslint-plugin-n'
 export { default as pluginPerfectionist } from 'eslint-plugin-perfectionist'
 export { default as pluginPromise } from 'eslint-plugin-promise'
 export { default as pluginReact } from 'eslint-plugin-react'
-export { default as pluginReactHooks } from 'eslint-plugin-react-hooks'
 export { default as pluginReactRefresh } from 'eslint-plugin-react-refresh'
 export { default as pluginSonarJs } from 'eslint-plugin-sonarjs'
 export { default as pluginStylistic } from '@stylistic/eslint-plugin'
@@ -30,3 +30,6 @@ export { default as parserAstro } from 'astro-eslint-parser'
 export { default as parserJsonc } from 'jsonc-eslint-parser'
 export { default as parserTypescript } from '@typescript-eslint/parser'
 export { default as parserVue } from 'vue-eslint-parser'
+
+// eslint-disable-next-line unicorn/prefer-export-from
+export { pluginReactHooks }

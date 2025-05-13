@@ -82,7 +82,6 @@ export function createStylisticRules(options: StyleOptions = {}): StylisticRuleO
     const indent = options.useTabs ? 'tab' : options.indent
 
     const config = pluginStylistic.configs.customize({
-        flat: true,
         indent,
         quotes: options.quotes,
         semi: options.semi,
