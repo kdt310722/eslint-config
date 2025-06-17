@@ -30,8 +30,8 @@ importers:
         specifier: ^8.34.1
         version: 8.34.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       '@unocss/eslint-plugin':
-        specifier: ^66.2.1
-        version: 66.2.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
+        specifier: ^66.2.2
+        version: 66.2.2(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       astro-eslint-parser:
         specifier: ^1.2.2
         version: 1.2.2
@@ -1218,19 +1218,19 @@ packages:
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
 
-  '@unocss/config@66.2.1':
-    resolution: {integrity: sha512-1qfK0o0mixBISsYD7ABERUrpiT6I6nCabwQ4S/MxJs3fKMGYMDMxZHEEBd6E+ZnCIeAD3hmRNLsfN4aAFB8mpg==}
+  '@unocss/config@66.2.2':
+    resolution: {integrity: sha512-OIB//8ucdpiB7Q1NU1cxXUHBf6tBMBvsb8u2afQcbm/z0WMJbFPUiIzm8Y/8iUUkJTuFEGC1cHezbKEw9j29vA==}
     engines: {node: '>=14'}
 
-  '@unocss/core@66.2.1':
-    resolution: {integrity: sha512-iHhemq8NBHDpayvqfz/+Np8KvuktR0lJQiixy1uLSCYIKwauOKrpJoW/bzzEecY1LcdjEDeUuwW8r3DSdrfQGA==}
+  '@unocss/core@66.2.2':
+    resolution: {integrity: sha512-zegia0a9/ACYWSlPBQnrwvH/Eq+MpW8Jc3b3500JHu/4lo8/tmSQaDXnv3FvbuuBFDShSzxiieJY5WFjhE81gg==}
 
-  '@unocss/eslint-plugin@66.2.1':
-    resolution: {integrity: sha512-LxJiUAE1f49WsHGf2chzJJ5LfZkQhfy2XCt2cvrIsJbcUoCbanil6FovQRulW/Cly9sLEcnjDjPIRTQfF7t38A==}
+  '@unocss/eslint-plugin@66.2.2':
+    resolution: {integrity: sha512-gw3E9PH28/fPC5Co10zR0w7TNbHk5y+jZPba4+6jxt6KZBiMwHhRBLox29mIYAEDSorcnsK0sU968HwfP+3tgg==}
     engines: {node: '>=14'}
 
-  '@unocss/rule-utils@66.2.1':
-    resolution: {integrity: sha512-uzi8onV53XXXjxI9ynUdk+9DngUYsy7uR4YFbTFUMF758SnNLil/MhJ9AeJGCUnl/3skZR6CZi8ne3IBJVnZAw==}
+  '@unocss/rule-utils@66.2.2':
+    resolution: {integrity: sha512-rwMXOqTul4Xfy1RpkUzfG/f6+3ZBP3YQlApLGN9lVrNA3iY+6cDrtv7sO3H8u6UUCbkc8xeOq96qFLgSWg91tw==}
     engines: {node: '>=14'}
 
   '@unrs/resolver-binding-android-arm-eabi@1.9.0':
@@ -5275,19 +5275,19 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-  '@unocss/config@66.2.1':
+  '@unocss/config@66.2.2':
     dependencies:
-      '@unocss/core': 66.2.1
+      '@unocss/core': 66.2.2
       unconfig: 7.3.2
 
-  '@unocss/core@66.2.1': {}
+  '@unocss/core@66.2.2': {}
 
-  '@unocss/eslint-plugin@66.2.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@unocss/eslint-plugin@66.2.2(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/utils': 8.34.1(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
-      '@unocss/config': 66.2.1
-      '@unocss/core': 66.2.1
-      '@unocss/rule-utils': 66.2.1
+      '@unocss/config': 66.2.2
+      '@unocss/core': 66.2.2
+      '@unocss/rule-utils': 66.2.2
       magic-string: 0.30.17
       synckit: 0.11.8
     transitivePeerDependencies:
@@ -5295,9 +5295,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@unocss/rule-utils@66.2.1':
+  '@unocss/rule-utils@66.2.2':
     dependencies:
-      '@unocss/core': 66.2.1
+      '@unocss/core': 66.2.2
       magic-string: 0.30.17
 
   '@unrs/resolver-binding-android-arm-eabi@1.9.0':
@@ -5615,7 +5615,7 @@ snapshots:
   astrojs-compiler-sync@1.1.1(@astrojs/compiler@2.12.0):
     dependencies:
       '@astrojs/compiler': 2.12.0
-      synckit: 0.11.6
+      synckit: 0.11.8
 
   async-function@1.0.0: {}
 
