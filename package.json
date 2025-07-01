@@ -73,7 +73,7 @@
         "eslint-plugin-unused-imports": "^4.1.4",
         "eslint-plugin-vue": "^10.2.0",
         "eslint-processor-vue-blocks": "^2.0.0",
-        "globals": "^16.2.0",
+        "globals": "^16.3.0",
         "jsonc-eslint-parser": "^2.4.0",
         "local-pkg": "^1.1.1",
         "prettier": "^3.6.2",
@@ -81,7 +81,7 @@
         "prettier-plugin-toml": "^2.0.5",
         "prompts": "^2.4.2",
         "semver": "^7.7.2",
-        "vue-eslint-parser": "^10.1.4"
+        "vue-eslint-parser": "^10.2.0"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
