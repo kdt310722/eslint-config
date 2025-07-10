@@ -117,8 +117,8 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-toml:
-        specifier: ^2.0.5
-        version: 2.0.5(prettier@3.6.2)
+        specifier: ^2.0.6
+        version: 2.0.6(prettier@3.6.2)
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -3590,8 +3590,8 @@ packages:
     resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
 
-  prettier-plugin-toml@2.0.5:
-    resolution: {integrity: sha512-WjXXKQyY4TdXWHU1v73UJxK/oDLSppf+b9KrSVl2kC4ZOr9CIVPKTQ/JxttgbYMaH8r3ihw7WYhMpI1EFa1obg==}
+  prettier-plugin-toml@2.0.6:
+    resolution: {integrity: sha512-12N/wBuHa9jd/KVy9pRP20NMKxQfQLMseQCt66lIbLaPLItvGUcSIryE1eZZMJ7loSws6Ig3M2Elc2EreNh76w==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       prettier: ^3.0.3
@@ -7927,7 +7927,7 @@ snapshots:
       prettier: 3.6.2
       sass-formatter: 0.7.9
 
-  prettier-plugin-toml@2.0.5(prettier@3.6.2):
+  prettier-plugin-toml@2.0.6(prettier@3.6.2):
     dependencies:
       '@taplo/lib': 0.5.0
       prettier: 3.6.2
