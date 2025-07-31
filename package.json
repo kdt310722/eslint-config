@@ -2,7 +2,7 @@
     "name": "@kdt310722/eslint-config",
     "type": "module",
     "version": "0.2.0",
-    "packageManager": "pnpm@10.13.1",
+    "packageManager": "pnpm@10.14.0",
     "description": "My personal ESLint config",
     "author": "Diep Dang <kdt310722@gmail.com>",
     "license": "MIT",
@@ -99,7 +99,7 @@
         "rimraf": "^6.0.1",
         "simple-git-hooks": "^2.13.0",
         "tsup": "^8.5.0",
-        "typescript": "^5.8.3"
+        "typescript": "^5.9.2"
     },
     "commitlint": {
         "extends": "@commitlint/config-conventional"
