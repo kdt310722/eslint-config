@@ -87,7 +87,7 @@
         "@commitlint/cli": "^20.4.2",
         "@commitlint/config-conventional": "^20.4.2",
         "@kdt310722/tsconfig": "^1.0.0",
-        "@swc/core": "^1.15.11",
+        "@swc/core": "^1.15.13",
         "@types/node": "^24.10.13",
         "@types/prompts": "^2.4.9",
         "@types/semver": "^7.7.1",
