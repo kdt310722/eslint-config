@@ -84,15 +84,15 @@
         "vue-eslint-parser": "^10.4.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^20.4.2",
-        "@commitlint/config-conventional": "^20.4.2",
+        "@commitlint/cli": "^20.4.3",
+        "@commitlint/config-conventional": "^20.4.3",
         "@kdt310722/tsconfig": "^1.0.0",
         "@swc/core": "^1.15.18",
         "@types/node": "^24.11.0",
         "@types/prompts": "^2.4.9",
         "@types/semver": "^7.7.1",
         "eslint": "^9.39.3",
-        "lint-staged": "^16.3.1",
+        "lint-staged": "^16.3.2",
         "np": "^11.0.2",
         "npm-check-updates": "^19.6.3",
         "only-allow": "^1.2.2",
