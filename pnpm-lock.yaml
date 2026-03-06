@@ -131,7 +131,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^20.4.3
-        version: 20.4.3(@types/node@24.11.0)(typescript@5.9.3)
+        version: 20.4.3(@types/node@24.11.1)(typescript@5.9.3)
       '@commitlint/config-conventional':
         specifier: ^20.4.3
         version: 20.4.3
@@ -142,8 +142,8 @@ importers:
         specifier: ^1.15.18
         version: 1.15.18
       '@types/node':
-        specifier: ^24.11.0
-        version: 24.11.0
+        specifier: ^24.11.1
+        version: 24.11.1
       '@types/prompts':
         specifier: ^2.4.9
         version: 2.4.9
@@ -158,7 +158,7 @@ importers:
         version: 16.3.2
       np:
         specifier: ^11.0.2
-        version: 11.0.2(@types/node@24.11.0)(typescript@5.9.3)
+        version: 11.0.2(@types/node@24.11.1)(typescript@5.9.3)
       npm-check-updates:
         specifier: ^19.6.3
         version: 19.6.3
@@ -1251,8 +1251,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@24.11.0':
-    resolution: {integrity: sha512-fPxQqz4VTgPI/IQ+lj9r0h+fDR66bzoeMGHp8ASee+32OSGIkeASsoZuJixsQoVef1QJbeubcPBxKk22QVoWdw==}
+  '@types/node@24.11.1':
+    resolution: {integrity: sha512-MOw3rIVR4djfMH7ft9ZJLPViaJwkZvMfrzumElas79IwMUEl8ykkuQmgL9MAMz7vO8G3vuz9b7Gu+keYZx7Xrw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4502,11 +4502,11 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@commitlint/cli@20.4.3(@types/node@24.11.0)(typescript@5.9.3)':
+  '@commitlint/cli@20.4.3(@types/node@24.11.1)(typescript@5.9.3)':
     dependencies:
       '@commitlint/format': 20.4.3
       '@commitlint/lint': 20.4.3
-      '@commitlint/load': 20.4.3(@types/node@24.11.0)(typescript@5.9.3)
+      '@commitlint/load': 20.4.3(@types/node@24.11.1)(typescript@5.9.3)
       '@commitlint/read': 20.4.3
       '@commitlint/types': 20.4.3
       tinyexec: 1.0.2
@@ -4553,14 +4553,14 @@ snapshots:
       '@commitlint/rules': 20.4.3
       '@commitlint/types': 20.4.3
 
-  '@commitlint/load@20.4.3(@types/node@24.11.0)(typescript@5.9.3)':
+  '@commitlint/load@20.4.3(@types/node@24.11.1)(typescript@5.9.3)':
     dependencies:
       '@commitlint/config-validator': 20.4.3
       '@commitlint/execute-rule': 20.0.0
       '@commitlint/resolve-extends': 20.4.3
       '@commitlint/types': 20.4.3
       cosmiconfig: 9.0.1(typescript@5.9.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.11.0)(cosmiconfig@9.0.1(typescript@5.9.3))(typescript@5.9.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.11.1)(cosmiconfig@9.0.1(typescript@5.9.3))(typescript@5.9.3)
       is-plain-obj: 4.1.0
       lodash.mergewith: 4.6.2
       picocolors: 1.1.1
@@ -4866,122 +4866,122 @@ snapshots:
 
   '@inquirer/ansi@2.0.3': {}
 
-  '@inquirer/checkbox@5.0.4(@types/node@24.11.0)':
+  '@inquirer/checkbox@5.0.4(@types/node@24.11.1)':
     dependencies:
       '@inquirer/ansi': 2.0.3
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
       '@inquirer/figures': 2.0.3
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/confirm@6.0.4(@types/node@24.11.0)':
+  '@inquirer/confirm@6.0.4(@types/node@24.11.1)':
     dependencies:
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/core@11.1.1(@types/node@24.11.0)':
+  '@inquirer/core@11.1.1(@types/node@24.11.1)':
     dependencies:
       '@inquirer/ansi': 2.0.3
       '@inquirer/figures': 2.0.3
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
       cli-width: 4.1.0
       mute-stream: 3.0.0
       signal-exit: 4.1.0
       wrap-ansi: 9.0.2
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/editor@5.0.4(@types/node@24.11.0)':
+  '@inquirer/editor@5.0.4(@types/node@24.11.1)':
     dependencies:
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/external-editor': 2.0.3(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/external-editor': 2.0.3(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/expand@5.0.4(@types/node@24.11.0)':
+  '@inquirer/expand@5.0.4(@types/node@24.11.1)':
     dependencies:
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/external-editor@2.0.3(@types/node@24.11.0)':
+  '@inquirer/external-editor@2.0.3(@types/node@24.11.1)':
     dependencies:
       chardet: 2.1.1
       iconv-lite: 0.7.2
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
   '@inquirer/figures@2.0.3': {}
 
-  '@inquirer/input@5.0.4(@types/node@24.11.0)':
+  '@inquirer/input@5.0.4(@types/node@24.11.1)':
     dependencies:
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/number@4.0.4(@types/node@24.11.0)':
+  '@inquirer/number@4.0.4(@types/node@24.11.1)':
     dependencies:
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/password@5.0.4(@types/node@24.11.0)':
-    dependencies:
-      '@inquirer/ansi': 2.0.3
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
-    optionalDependencies:
-      '@types/node': 24.11.0
-
-  '@inquirer/prompts@8.2.0(@types/node@24.11.0)':
-    dependencies:
-      '@inquirer/checkbox': 5.0.4(@types/node@24.11.0)
-      '@inquirer/confirm': 6.0.4(@types/node@24.11.0)
-      '@inquirer/editor': 5.0.4(@types/node@24.11.0)
-      '@inquirer/expand': 5.0.4(@types/node@24.11.0)
-      '@inquirer/input': 5.0.4(@types/node@24.11.0)
-      '@inquirer/number': 4.0.4(@types/node@24.11.0)
-      '@inquirer/password': 5.0.4(@types/node@24.11.0)
-      '@inquirer/rawlist': 5.2.0(@types/node@24.11.0)
-      '@inquirer/search': 4.1.0(@types/node@24.11.0)
-      '@inquirer/select': 5.0.4(@types/node@24.11.0)
-    optionalDependencies:
-      '@types/node': 24.11.0
-
-  '@inquirer/rawlist@5.2.0(@types/node@24.11.0)':
-    dependencies:
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
-    optionalDependencies:
-      '@types/node': 24.11.0
-
-  '@inquirer/search@4.1.0(@types/node@24.11.0)':
-    dependencies:
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/figures': 2.0.3
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
-    optionalDependencies:
-      '@types/node': 24.11.0
-
-  '@inquirer/select@5.0.4(@types/node@24.11.0)':
+  '@inquirer/password@5.0.4(@types/node@24.11.1)':
     dependencies:
       '@inquirer/ansi': 2.0.3
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/figures': 2.0.3
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
-  '@inquirer/type@4.0.3(@types/node@24.11.0)':
+  '@inquirer/prompts@8.2.0(@types/node@24.11.1)':
+    dependencies:
+      '@inquirer/checkbox': 5.0.4(@types/node@24.11.1)
+      '@inquirer/confirm': 6.0.4(@types/node@24.11.1)
+      '@inquirer/editor': 5.0.4(@types/node@24.11.1)
+      '@inquirer/expand': 5.0.4(@types/node@24.11.1)
+      '@inquirer/input': 5.0.4(@types/node@24.11.1)
+      '@inquirer/number': 4.0.4(@types/node@24.11.1)
+      '@inquirer/password': 5.0.4(@types/node@24.11.1)
+      '@inquirer/rawlist': 5.2.0(@types/node@24.11.1)
+      '@inquirer/search': 4.1.0(@types/node@24.11.1)
+      '@inquirer/select': 5.0.4(@types/node@24.11.1)
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
+
+  '@inquirer/rawlist@5.2.0(@types/node@24.11.1)':
+    dependencies:
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
+    optionalDependencies:
+      '@types/node': 24.11.1
+
+  '@inquirer/search@4.1.0(@types/node@24.11.1)':
+    dependencies:
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/figures': 2.0.3
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
+    optionalDependencies:
+      '@types/node': 24.11.1
+
+  '@inquirer/select@5.0.4(@types/node@24.11.1)':
+    dependencies:
+      '@inquirer/ansi': 2.0.3
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/figures': 2.0.3
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
+    optionalDependencies:
+      '@types/node': 24.11.1
+
+  '@inquirer/type@4.0.3(@types/node@24.11.1)':
+    optionalDependencies:
+      '@types/node': 24.11.1
 
   '@isaacs/balanced-match@4.0.1': {}
 
@@ -5280,7 +5280,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.11
 
-  '@types/node@24.11.0':
+  '@types/node@24.11.1':
     dependencies:
       undici-types: 7.16.0
 
@@ -5288,7 +5288,7 @@ snapshots:
 
   '@types/prompts@2.4.9':
     dependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
       kleur: 3.0.3
 
   '@types/semver@7.7.1': {}
@@ -5991,9 +5991,9 @@ snapshots:
     dependencies:
       browserslist: 4.24.5
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@24.11.0)(cosmiconfig@9.0.1(typescript@5.9.3))(typescript@5.9.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@24.11.1)(cosmiconfig@9.0.1(typescript@5.9.3))(typescript@5.9.3):
     dependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
       cosmiconfig: 9.0.1(typescript@5.9.3)
       jiti: 2.6.1
       typescript: 5.9.3
@@ -7048,17 +7048,17 @@ snapshots:
       inquirer: 6.5.2
       rxjs: 6.6.7
 
-  inquirer@13.2.1(@types/node@24.11.0):
+  inquirer@13.2.1(@types/node@24.11.1):
     dependencies:
       '@inquirer/ansi': 2.0.3
-      '@inquirer/core': 11.1.1(@types/node@24.11.0)
-      '@inquirer/prompts': 8.2.0(@types/node@24.11.0)
-      '@inquirer/type': 4.0.3(@types/node@24.11.0)
+      '@inquirer/core': 11.1.1(@types/node@24.11.1)
+      '@inquirer/prompts': 8.2.0(@types/node@24.11.1)
+      '@inquirer/type': 4.0.3(@types/node@24.11.1)
       mute-stream: 3.0.0
       run-async: 4.0.6
       rxjs: 7.8.2
     optionalDependencies:
-      '@types/node': 24.11.0
+      '@types/node': 24.11.1
 
   inquirer@6.5.2:
     dependencies:
@@ -7627,7 +7627,7 @@ snapshots:
       semver: 7.7.4
       validate-npm-package-license: 3.0.4
 
-  np@11.0.2(@types/node@24.11.0)(typescript@5.9.3):
+  np@11.0.2(@types/node@24.11.1)(typescript@5.9.3):
     dependencies:
       chalk: 5.6.2
       chalk-template: 1.1.2
@@ -7642,7 +7642,7 @@ snapshots:
       hosted-git-info: 9.0.2
       ignore-walk: 8.0.0
       import-local: 3.2.0
-      inquirer: 13.2.1(@types/node@24.11.0)
+      inquirer: 13.2.1(@types/node@24.11.1)
       is-installed-globally: 1.0.0
       is-interactive: 2.0.0
       is-scoped: 3.0.0
