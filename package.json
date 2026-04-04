@@ -93,7 +93,7 @@
         "@types/semver": "^7.7.1",
         "eslint": "^9.39.4",
         "lint-staged": "^16.4.0",
-        "np": "^11.0.2",
+        "np": "^11.0.3",
         "npm-check-updates": "^20.0.0",
         "only-allow": "^1.2.2",
         "rimraf": "^6.1.3",
