@@ -81,7 +81,7 @@
         "prettier-plugin-toml": "^2.0.6",
         "prompts": "^2.4.2",
         "semver": "^7.8.1",
-        "vue-eslint-parser": "^10.4.0"
+        "vue-eslint-parser": "^10.4.1"
     },
     "devDependencies": {
         "@commitlint/cli": "^21.0.2",
