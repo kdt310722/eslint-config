@@ -157,8 +157,8 @@ importers:
         specifier: ^17.0.8
         version: 17.0.8
       np:
-        specifier: ^11.2.1
-        version: 11.2.1(@types/node@24.13.2)(typescript@6.0.3)
+        specifier: ^11.2.2
+        version: 11.2.2(@types/node@24.13.2)(typescript@6.0.3)
       npm-check-updates:
         specifier: ^22.2.9
         version: 22.2.9
@@ -3349,8 +3349,8 @@ packages:
     resolution: {integrity: sha512-RWk+PI433eESQ7ounYxIp67CYuVsS1uYSonX3kA6ps/3LWfjVQa/ptEg6Y3T6uAMq1mWpX9PQ+qx+QaHpsc7gQ==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  np@11.2.1:
-    resolution: {integrity: sha512-OBvNC8ipTHzRNY44opIUxptDaI1NukIBxVvof2vvLe8XLfw87TyfOdR6/QYSQEMqtRSL0XkNj0N/6Bsn//S6Qg==}
+  np@11.2.2:
+    resolution: {integrity: sha512-xUenmoodkCbegO6QL0bApryA2AWb4I6CSq6dyEDDQ5MeSdRTE/qY2DWsoQrD3xJdbK+r54wmDJuWPDpE7iKGSQ==}
     engines: {bun: '>=1', git: '>=2.11.0', node: '>=20', npm: '>=9', pnpm: '>=8', yarn: '>=1.7.0'}
     hasBin: true
 
@@ -7558,7 +7558,7 @@ snapshots:
       semver: 7.8.5
       validate-npm-package-license: 3.0.4
 
-  np@11.2.1(@types/node@24.13.2)(typescript@6.0.3):
+  np@11.2.2(@types/node@24.13.2)(typescript@6.0.3):
     dependencies:
       chalk: 5.6.2
       chalk-template: 1.1.2
