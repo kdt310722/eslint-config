@@ -87,8 +87,8 @@ importers:
         specifier: ^3.0.7
         version: 3.0.7(eslint@9.39.5(jiti@2.6.1))
       eslint-plugin-tailwindcss:
-        specifier: 4.3.0
-        version: 4.3.0(eslint@9.39.5(jiti@2.6.1))(tailwindcss@4.1.11)(typescript@7.0.2)
+        specifier: 4.4.0
+        version: 4.4.0(eslint@9.39.5(jiti@2.6.1))(tailwindcss@4.1.11)(typescript@7.0.2)
       eslint-plugin-unicorn:
         specifier: ^59.0.1
         version: 59.0.1(eslint@9.39.5(jiti@2.6.1))
@@ -2446,8 +2446,8 @@ packages:
     peerDependencies:
       eslint: ^8.0.0 || ^9.0.0
 
-  eslint-plugin-tailwindcss@4.3.0:
-    resolution: {integrity: sha512-8YqqinLSyV78zFvCzVemLX3eKpEW2DbpfvPHmQhv/HK7sKuDw+9/GAQPlJLQICDgbqLOB/D0ZH5BUQ+kuwq93Q==}
+  eslint-plugin-tailwindcss@4.4.0:
+    resolution: {integrity: sha512-cPyEIeBTVbPU30oQTm7pOqOYurb5vtGaGhRCajYsSUwpUS9fvswB13dOLDUjGJJ+Rt8ylXf4L0hrhLA7Hf7WTQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
@@ -6612,7 +6612,7 @@ snapshots:
       semver: 7.7.4
       typescript: 7.0.2
 
-  eslint-plugin-tailwindcss@4.3.0(eslint@9.39.5(jiti@2.6.1))(tailwindcss@4.1.11)(typescript@7.0.2):
+  eslint-plugin-tailwindcss@4.4.0(eslint@9.39.5(jiti@2.6.1))(tailwindcss@4.1.11)(typescript@7.0.2):
     dependencies:
       '@typescript-eslint/utils': 8.67.0(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
       eslint: 9.39.5(jiti@2.6.1)
