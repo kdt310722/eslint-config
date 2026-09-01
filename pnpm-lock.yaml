@@ -30,8 +30,8 @@ importers:
         specifier: ^8.69.0
         version: 8.69.0(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
       '@unocss/eslint-plugin':
-        specifier: ^66.8.1
-        version: 66.8.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
+        specifier: ^66.9.1
+        version: 66.9.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
       astro-eslint-parser:
         specifier: ^1.4.0
         version: 1.4.0
@@ -1511,17 +1511,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@unocss/config@66.8.1':
-    resolution: {integrity: sha512-2MhijaV6a4OWSH5zJeo2QLIUr7gtjxdA3x1D4CIDCWQnrEqmPstOBRQOhWDl3HbLW6/0jHOFSMExbeeFvCvnsA==}
+  '@unocss/config@66.9.1':
+    resolution: {integrity: sha512-1Re36+AGU6c3OXIq/lOhsEe6yGVsNy0DBFscKiA7GTl/ZS6ofADitSKkd9+FFx2QbztAJi2mbcuMnW+gtY76yw==}
 
-  '@unocss/core@66.8.1':
-    resolution: {integrity: sha512-ze/3qTloXZtFn6TXiNjL6ai1vgMvTCXIm8nqTzoU/Dt5d5MRxA86ERfUmgTX70rEBam5l6vnsaEVZO6WnHhdRA==}
+  '@unocss/core@66.9.1':
+    resolution: {integrity: sha512-x4ckZij1dV8mdLx9dpLPH5Aw5bUvGQM58p7pj6HYpeufxxE+qQeEOGuMZkmWSjilfZ039Zj9/KPf+e/V7sqMdQ==}
 
-  '@unocss/eslint-plugin@66.8.1':
-    resolution: {integrity: sha512-MC2zoxGq9LRa1Ix3DujBNAkhLXkv3y0R1CuAFvLujvxjuXls4wv29O2NdwNNazuAL8smXDs5LceRZvIijdP7+g==}
+  '@unocss/eslint-plugin@66.9.1':
+    resolution: {integrity: sha512-2NVwDXQ6HsK+2juROpn+qai1vklVXAEduN9rzwd83oj1aKowUG2ATY6/YZK28e2uNpNkXqskHUtag5vJMv/7aA==}
 
-  '@unocss/rule-utils@66.8.1':
-    resolution: {integrity: sha512-EQ9bhifqIodIsl7+eOmkCVWXkZ7dnwkmTURFyAosVpUc8j4WYsfnQC+3SjKnJfT44s1rIqHJtoBBaG9X97opdA==}
+  '@unocss/rule-utils@66.9.1':
+    resolution: {integrity: sha512-4Du8AAauGzLoMBfic0C7S1oo2PFuDYeM8etiE8ZBR66T+utIWUrP6JZWE1h5ti6DNrhf7OFWRM/EuOFus1AjjQ==}
 
   '@unrs/resolver-binding-android-arm-eabi@1.9.2':
     resolution: {integrity: sha512-tS+lqTU3N0kkthU+rYp0spAYq15DU8ld9kXkaKg9sbQqJNF+WPMuNHZQGCgdxrUOEO0j22RKMwRVhF1HTl+X8A==}
@@ -3316,8 +3316,8 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
-  magic-string@1.2.0:
-    resolution: {integrity: sha512-ptco+HFxTLgjafSLim2LojBSwfg5feBjd+SqyiwdGkzC38UPdZy3zgrHMI2CoTf5fJL38tbHMYWVzIH8BxGqJw==}
+  magic-string@1.2.3:
+    resolution: {integrity: sha512-Bpb0W2TbLKOZ7vJnOUnVRGq3WL2p+ISV29M6hYPL1AFCpyKZpdr5ytiXoTSSxRVhg8YW7f65+6gbG8WG6PCa/g==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -5517,32 +5517,32 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@unocss/config@66.8.1':
+  '@unocss/config@66.9.1':
     dependencies:
-      '@unocss/core': 66.8.1
+      '@unocss/core': 66.9.1
       colorette: 2.0.20
       consola: 3.4.2
       unconfig: 7.5.0
 
-  '@unocss/core@66.8.1': {}
+  '@unocss/core@66.9.1': {}
 
-  '@unocss/eslint-plugin@66.8.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)':
+  '@unocss/eslint-plugin@66.9.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)':
     dependencies:
       '@typescript-eslint/utils': 8.69.0(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
-      '@unocss/config': 66.8.1
-      '@unocss/core': 66.8.1
-      '@unocss/rule-utils': 66.8.1
-      magic-string: 1.2.0
+      '@unocss/config': 66.9.1
+      '@unocss/core': 66.9.1
+      '@unocss/rule-utils': 66.9.1
+      magic-string: 1.2.3
       synckit: 0.11.13
     transitivePeerDependencies:
       - eslint
       - supports-color
       - typescript
 
-  '@unocss/rule-utils@66.8.1':
+  '@unocss/rule-utils@66.9.1':
     dependencies:
-      '@unocss/core': 66.8.1
-      magic-string: 1.2.0
+      '@unocss/core': 66.9.1
+      magic-string: 1.2.3
 
   '@unrs/resolver-binding-android-arm-eabi@1.9.2':
     optional: true
@@ -7537,7 +7537,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  magic-string@1.2.0:
+  magic-string@1.2.3:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
