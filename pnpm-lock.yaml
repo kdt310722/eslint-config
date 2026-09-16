@@ -30,8 +30,8 @@ importers:
         specifier: ^8.70.0
         version: 8.70.0(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
       '@unocss/eslint-plugin':
-        specifier: ^66.10.4
-        version: 66.10.4(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
+        specifier: ^66.10.5
+        version: 66.10.5(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
       astro-eslint-parser:
         specifier: ^1.4.0
         version: 1.4.0
@@ -111,14 +111,14 @@ importers:
         specifier: ^1.2.1
         version: 1.2.1
       prettier:
-        specifier: ^3.9.6
-        version: 3.9.6
+        specifier: ^3.9.7
+        version: 3.9.7
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-toml:
         specifier: ^2.0.6
-        version: 2.0.6(prettier@3.9.6)
+        version: 2.0.6(prettier@3.9.7)
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -855,6 +855,9 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
+  '@jridgewell/sourcemap-codec@1.6.0':
+    resolution: {integrity: sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw==}
+
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
@@ -1511,17 +1514,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@unocss/config@66.10.4':
-    resolution: {integrity: sha512-zT9RaY1Zc3oDuQlAKADzs2e2NyTcwEOXgGm/TSBxAzEIwXq7McAvj3vmVw2bEmFQfCpYX9luGYV/iEdmfRL7Eg==}
+  '@unocss/config@66.10.5':
+    resolution: {integrity: sha512-ddmmmsJ+Vjg9oS4c5ElP8vR1oftID9dqG0yASDWLsLNY4uKo295EuCQXIBVbkyRnBZcdjpnOUfo71iwElaCeyA==}
 
-  '@unocss/core@66.10.4':
-    resolution: {integrity: sha512-d5OQ34PpNdHBIfPkABglSe20vvf9yjokWyBGLXIgin0vsLLmGjMPkINkwqnxG0lER1yd/S+zQt+zddru738prA==}
+  '@unocss/core@66.10.5':
+    resolution: {integrity: sha512-fukv4bL32z/kWIiKgDy5ih452Jzf7S76p8RnP4N+3utqMFeqWayEApiqRidGv5b6NwPguTsKXaLsy+mbK9aMfA==}
 
-  '@unocss/eslint-plugin@66.10.4':
-    resolution: {integrity: sha512-ucvc9g3O6ZR4s21INJAOvznVtUeLLrUJ9qkWOLBYGTd5WUhcrRxSVJOIMlsttvfB/+ejE14ymZOtqJILCS4lVw==}
+  '@unocss/eslint-plugin@66.10.5':
+    resolution: {integrity: sha512-+cXycZEs/DXE3+8f2v0wl7ruR3On/ag6Mi2M6ORRTfnSJL1IYPY+hvVO7fV+lDjLW5OMvksYKdUSDHxTDiqjBw==}
 
-  '@unocss/rule-utils@66.10.4':
-    resolution: {integrity: sha512-z9ulL1DF/zouhwxrcn0X8/s1KIeefxNg/EZIE6BJE81P7VM8vqHZPhEnBM1cAsJtk9x5ShuIWJhdRi8+vXJY/A==}
+  '@unocss/rule-utils@66.10.5':
+    resolution: {integrity: sha512-ePcz9fJfEVN4VXJgx2bPdGSZ/ujdyUhiJOnMTwIWRxlUdZ2Wgc5aT6zTb9W9AjOB0eWxO2Iyb0HGhA9GGuIY8g==}
 
   '@unrs/resolver-binding-android-arm-eabi@1.9.2':
     resolution: {integrity: sha512-tS+lqTU3N0kkthU+rYp0spAYq15DU8ld9kXkaKg9sbQqJNF+WPMuNHZQGCgdxrUOEO0j22RKMwRVhF1HTl+X8A==}
@@ -3316,8 +3319,8 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
-  magic-string@1.2.3:
-    resolution: {integrity: sha512-Bpb0W2TbLKOZ7vJnOUnVRGq3WL2p+ISV29M6hYPL1AFCpyKZpdr5ytiXoTSSxRVhg8YW7f65+6gbG8WG6PCa/g==}
+  magic-string@1.4.1:
+    resolution: {integrity: sha512-8lyCu36ErXR0J9uaGKlKQoiLZKmtI63YGLE8G2o9jyRPdr4X47LusSOwgOJOzcVtp81fTAAjxR7BwKz682Jhow==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -3748,8 +3751,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
+  prettier@3.9.7:
+    resolution: {integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5045,6 +5048,8 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
+  '@jridgewell/sourcemap-codec@1.6.0': {}
+
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
@@ -5513,32 +5518,32 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@unocss/config@66.10.4':
+  '@unocss/config@66.10.5':
     dependencies:
-      '@unocss/core': 66.10.4
+      '@unocss/core': 66.10.5
       colorette: 2.0.20
       consola: 3.4.2
       unconfig: 7.5.0
 
-  '@unocss/core@66.10.4': {}
+  '@unocss/core@66.10.5': {}
 
-  '@unocss/eslint-plugin@66.10.4(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)':
+  '@unocss/eslint-plugin@66.10.5(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)':
     dependencies:
       '@typescript-eslint/utils': 8.70.0(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
-      '@unocss/config': 66.10.4
-      '@unocss/core': 66.10.4
-      '@unocss/rule-utils': 66.10.4
-      magic-string: 1.2.3
+      '@unocss/config': 66.10.5
+      '@unocss/core': 66.10.5
+      '@unocss/rule-utils': 66.10.5
+      magic-string: 1.4.1
       synckit: 0.11.13
     transitivePeerDependencies:
       - eslint
       - supports-color
       - typescript
 
-  '@unocss/rule-utils@66.10.4':
+  '@unocss/rule-utils@66.10.5':
     dependencies:
-      '@unocss/core': 66.10.4
-      magic-string: 1.2.3
+      '@unocss/core': 66.10.5
+      magic-string: 1.4.1
 
   '@unrs/resolver-binding-android-arm-eabi@1.9.2':
     optional: true
@@ -6455,7 +6460,7 @@ snapshots:
       eslint-parser-plain: 0.1.1
       ohash: 2.0.11
       oxfmt: 0.35.0
-      prettier: 3.9.6
+      prettier: 3.9.7
       synckit: 0.11.12
 
   eslint-plugin-import-x@4.17.1(@typescript-eslint/utils@8.70.0(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint-import-resolver-node@0.3.9)(eslint@9.39.5(jiti@2.6.1)):
@@ -7533,9 +7538,9 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  magic-string@1.2.3:
+  magic-string@1.4.1:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   math-intrinsics@1.1.0: {}
 
@@ -8002,15 +8007,15 @@ snapshots:
   prettier-plugin-astro@0.14.1:
     dependencies:
       '@astrojs/compiler': 2.12.0
-      prettier: 3.9.6
+      prettier: 3.9.7
       sass-formatter: 0.7.9
 
-  prettier-plugin-toml@2.0.6(prettier@3.9.6):
+  prettier-plugin-toml@2.0.6(prettier@3.9.7):
     dependencies:
       '@taplo/lib': 0.5.0
-      prettier: 3.9.6
+      prettier: 3.9.7
 
-  prettier@3.9.6: {}
+  prettier@3.9.7: {}
 
   pretty-ms@9.3.0:
     dependencies:
