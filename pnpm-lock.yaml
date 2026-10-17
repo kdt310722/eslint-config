@@ -117,8 +117,8 @@ importers:
         specifier: ^0.14.1
         version: 0.14.1
       prettier-plugin-toml:
-        specifier: ^2.0.6
-        version: 2.0.6(prettier@3.9.10)
+        specifier: ^4.0.0
+        version: 4.0.0(prettier@3.9.10)
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -1300,11 +1300,61 @@ packages:
   '@swc/types@0.1.28':
     resolution: {integrity: sha512-V6Mnml8v09QALx6K0elJ7o9K/MkVDtW3t6L+7Ou/JcWtb3xwId2AH4FeOceySd2JaO87IMw4+6vSZxLm34LPbw==}
 
-  '@taplo/core@0.2.0':
-    resolution: {integrity: sha512-r8bl54Zj1In3QLkiW/ex694bVzpPJ9EhwqT9xkcUVODnVUGirdB1JTsmiIv0o1uwqZiwhi8xNnTOQBRQCpizrQ==}
+  '@tombi-toml/lib-darwin-arm64@1.8.5':
+    resolution: {integrity: sha512-a/5tSNdssQRBcUC6ivybDEXInL2oltX0DbAJstB1TLj4qdOeXRKGSrJfitCACjUTOzis3Igd6nkBtYHfoRorwQ==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [darwin]
 
-  '@taplo/lib@0.5.0':
-    resolution: {integrity: sha512-+xIqpQXJco3T+VGaTTwmhxLa51qpkQxCjRwezjFZgr+l21ExlywJFcDfTrNmL6lG6tqb0h8GyJKO3UPGPtSCWg==}
+  '@tombi-toml/lib-darwin-x64@1.8.5':
+    resolution: {integrity: sha512-IRLjvbJyDmLz6Brbp2pTFnPeJCKd9dHzJB7UGvquIQLdOzCgdxOsHV3fHBldeQIIsl8791RCU6BHeVNWB0oKXw==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@tombi-toml/lib-linux-arm64-musl@1.8.5':
+    resolution: {integrity: sha512-TEbPFe+aLl7HN5nj1PH4k+d99eligGql7OOzWWR5JfFfCHNX8aEIerUUXwg5VNj1wyHSUc/VcNvwJrFlMr5agQ==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@tombi-toml/lib-linux-arm64@1.8.5':
+    resolution: {integrity: sha512-yq2zMrnqRRKBJYSS8XR9MxG+roe4APDR+FSGXL4LJ6xfStpfMEpl09pVGCiv1qa4avvvQLa1tXTG0VykYx099g==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tombi-toml/lib-linux-x64-musl@1.8.5':
+    resolution: {integrity: sha512-LKU+QcXvmRiuqdNbUKlNYFHqK6aJCpTzNI7N5mz8Ntdz+gMQVZkAMictxNQwrOS2d1asJn8raVlBEMiUqbrlFw==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@tombi-toml/lib-linux-x64@1.8.5':
+    resolution: {integrity: sha512-dcRXqN93uidJOnL6KhXcSaSq/9BE6GFSjre+Rzq6q+5uLdROoIncYtj2oeeVZJPrq7Vp2oJmOQBl9sZ1RceZCw==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tombi-toml/lib-win32-arm64@1.8.5':
+    resolution: {integrity: sha512-1ACHRNCaAGVoI71LXBj2R4VWZkjOOQAI5aPR+7WcU2zwkMnN55i5mgycPV45zKFfnAIkjvlDpT5olpZ4KXyAqg==}
+    engines: {node: '>=20.0.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@tombi-toml/lib-win32-x64@1.8.5':
+    resolution: {integrity: sha512-CfDHGdgdA4r+J0iCBnwQCEN4YFZRcbzc8eaJ75mQ9p0VVDq5MZ5s1wczX4uWpzQ/O8LGGo/nljX7zJjPQ2YNAA==}
+    engines: {node: '>=20.0.0'}
+    cpu: [x64]
+    os: [win32]
+
+  '@tombi-toml/lib@1.8.5':
+    resolution: {integrity: sha512-p2iL3Wr8ry+0+hEt6oigKBqEV+EDL7oCzZiiYR29dDcBrPN4OOqxz+UBvS3DapKsRbmf/z7DKMsMzlhcs0ypmg==}
+    engines: {node: '>=20.0.0'}
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
@@ -3749,9 +3799,9 @@ packages:
     resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
 
-  prettier-plugin-toml@2.0.6:
-    resolution: {integrity: sha512-12N/wBuHa9jd/KVy9pRP20NMKxQfQLMseQCt66lIbLaPLItvGUcSIryE1eZZMJ7loSws6Ig3M2Elc2EreNh76w==}
-    engines: {node: '>=16.0.0'}
+  prettier-plugin-toml@4.0.0:
+    resolution: {integrity: sha512-kx4a0gdNKH40/NOj/gSkiRKqXmOq8hXb6fNWW6Txd3T0fyq+Wq8ly0qtjNoGGiLUPhvS/3PIRVyVJpzHw6RNwA==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
       prettier: ^3.0.3
 
@@ -4018,6 +4068,10 @@ packages:
   slice-ansi@0.0.4:
     resolution: {integrity: sha512-up04hB2hR92PgjpyU3y/eg91yIBILyjVY26NvvciY3EVVPjybkMszMpXQ9QAkcS3I5rtJBDLoTxxg+qvW8c7rw==}
     engines: {node: '>=0.10.0'}
+
+  smol-toml@1.9.1:
+    resolution: {integrity: sha512-j7WyPdf0CJoutMzMoPLF/bVXHtKZIT9Rb4eGeEbWw8X2t5oirjPgpL+OpaENZrILYaXqYwnVH+qgUwVbl+pUJQ==}
+    engines: {node: '>= 18'}
 
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
@@ -5307,11 +5361,40 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@taplo/core@0.2.0': {}
+  '@tombi-toml/lib-darwin-arm64@1.8.5':
+    optional: true
 
-  '@taplo/lib@0.5.0':
-    dependencies:
-      '@taplo/core': 0.2.0
+  '@tombi-toml/lib-darwin-x64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-arm64-musl@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-arm64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-x64-musl@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-linux-x64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-win32-arm64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib-win32-x64@1.8.5':
+    optional: true
+
+  '@tombi-toml/lib@1.8.5':
+    optionalDependencies:
+      '@tombi-toml/lib-darwin-arm64': 1.8.5
+      '@tombi-toml/lib-darwin-x64': 1.8.5
+      '@tombi-toml/lib-linux-arm64': 1.8.5
+      '@tombi-toml/lib-linux-arm64-musl': 1.8.5
+      '@tombi-toml/lib-linux-x64': 1.8.5
+      '@tombi-toml/lib-linux-x64-musl': 1.8.5
+      '@tombi-toml/lib-win32-arm64': 1.8.5
+      '@tombi-toml/lib-win32-x64': 1.8.5
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
@@ -5609,7 +5692,7 @@ snapshots:
       '@vue/shared': 3.4.15
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-dom@3.4.15':
     dependencies:
@@ -5626,7 +5709,7 @@ snapshots:
       estree-walker: 2.0.2
       magic-string: 0.30.21
       postcss: 8.5.3
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@vue/compiler-ssr@3.4.15':
     dependencies:
@@ -7972,10 +8055,11 @@ snapshots:
       prettier: 3.9.10
       sass-formatter: 0.7.9
 
-  prettier-plugin-toml@2.0.6(prettier@3.9.10):
+  prettier-plugin-toml@4.0.0(prettier@3.9.10):
     dependencies:
-      '@taplo/lib': 0.5.0
+      '@tombi-toml/lib': 1.8.5
       prettier: 3.9.10
+      smol-toml: 1.9.1
 
   prettier@3.9.10: {}
 
@@ -8283,6 +8367,8 @@ snapshots:
   slash@5.1.0: {}
 
   slice-ansi@0.0.4: {}
+
+  smol-toml@1.9.1: {}
 
   source-map-js@1.2.1: {}
 
