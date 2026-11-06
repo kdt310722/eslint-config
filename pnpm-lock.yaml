@@ -97,7 +97,7 @@ importers:
         version: 4.4.1(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint@9.39.5(jiti@2.6.1))
       eslint-plugin-vue:
         specifier: ^10.12.0
-        version: 10.12.0(@stylistic/eslint-plugin@4.4.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/parser@8.72.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint@9.39.5(jiti@2.6.1))(vue-eslint-parser@10.4.1(eslint@9.39.5(jiti@2.6.1)))
+        version: 10.12.0(@stylistic/eslint-plugin@4.4.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/parser@8.72.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint@9.39.5(jiti@2.6.1))(vue-eslint-parser@10.4.2(eslint@9.39.5(jiti@2.6.1)))
       eslint-processor-vue-blocks:
         specifier: ^2.0.0
         version: 2.0.0(@vue/compiler-sfc@3.4.15)(eslint@9.39.5(jiti@2.6.1))
@@ -126,8 +126,8 @@ importers:
         specifier: ^7.8.6
         version: 7.8.6
       vue-eslint-parser:
-        specifier: ^10.4.1
-        version: 10.4.1(eslint@9.39.5(jiti@2.6.1))
+        specifier: ^10.4.2
+        version: 10.4.2(eslint@9.39.5(jiti@2.6.1))
     devDependencies:
       '@commitlint/cli':
         specifier: ^21.2.4
@@ -4405,8 +4405,8 @@ packages:
     resolution: {integrity: sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
-  vue-eslint-parser@10.4.1:
-    resolution: {integrity: sha512-Gk6gRDj0n/fkRa3C3l0bBheoBckUq/Rs0F/TvMWIS6nzzx67amAViMe9CkNgsP2tXyQONvGiHQESHwFtZ3aYDA==}
+  vue-eslint-parser@10.4.2:
+    resolution: {integrity: sha512-WMpzulb50kb6snghzoGzS++62wcOszAk/piYcnvzdStM8Wni/BmogYltpoOFv2eK9hDbXxvwFQgnwZGpAoUfpA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
@@ -6653,7 +6653,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 8.72.1(@typescript-eslint/parser@8.72.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
 
-  eslint-plugin-vue@10.12.0(@stylistic/eslint-plugin@4.4.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/parser@8.72.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint@9.39.5(jiti@2.6.1))(vue-eslint-parser@10.4.1(eslint@9.39.5(jiti@2.6.1))):
+  eslint-plugin-vue@10.12.0(@stylistic/eslint-plugin@4.4.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(@typescript-eslint/parser@8.72.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2))(eslint@9.39.5(jiti@2.6.1))(vue-eslint-parser@10.4.2(eslint@9.39.5(jiti@2.6.1))):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@9.39.5(jiti@2.6.1))
       eslint: 9.39.5(jiti@2.6.1)
@@ -6661,7 +6661,7 @@ snapshots:
       nth-check: 2.1.1
       postcss-selector-parser: 7.1.4
       semver: 7.8.6
-      vue-eslint-parser: 10.4.1(eslint@9.39.5(jiti@2.6.1))
+      vue-eslint-parser: 10.4.2(eslint@9.39.5(jiti@2.6.1))
       xml-name-validator: 5.0.0
     optionalDependencies:
       '@stylistic/eslint-plugin': 4.4.1(eslint@9.39.5(jiti@2.6.1))(typescript@7.0.2)
@@ -8754,7 +8754,7 @@ snapshots:
 
   validate-npm-package-name@5.0.1: {}
 
-  vue-eslint-parser@10.4.1(eslint@9.39.5(jiti@2.6.1)):
+  vue-eslint-parser@10.4.2(eslint@9.39.5(jiti@2.6.1)):
     dependencies:
       debug: 4.4.3
       eslint: 9.39.5(jiti@2.6.1)
